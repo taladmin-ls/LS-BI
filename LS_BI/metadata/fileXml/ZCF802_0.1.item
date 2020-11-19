@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:XmlFileConnection Encoding="UTF-8" XmlFilePath="C:/BI/ETL/TOS_DI-20200219_1130-V7.3.1/workspace/ZCF802.xml" dataPackage="_q-NkjBkmEeu8o7zKHzN7eA" fileContent="3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D227574662D38223F3E3C6173783A616261702076657273696F6E3D22312E302220786D6C6E733A6173783D22687474703A2F2F7777772E7361702E636F6D2F61626170786D6C223E3C6173783A76616C7565733E3C544558543E3C5A43463830323E3C4348414E47455F494E443E3C2F4348414E47455F494E443E3C4D414E44543E3330303C2F4D414E44543E3C56455253494F3E3030303C2F56455253494F3E3C504C414354493E303C2F504C414354493E3C59454152423E323031383C2F59454152423E3C50455244453E3030353C2F50455244453E3C594B4F52473E313030303C2F594B4F52473E3C59545745473E31303C2F59545745473E3C565354454C3E533130303C2F565354454C3E3C59535041523E31303C2F59535041523E3C5945524B533E313030303C2F5945524B533E3C56425459503E4A3C2F56425459503E3C4C464152543E4C463C2F4C464152543E3C59505354593E54414E3C2F59505354593E3C4E52434F4E3E303038303035363334393C2F4E52434F4E3E3C5245434E523E30353031373537313C2F5245434E523E3C414544544D3E323032302D31302D32383C2F414544544D3E3C554E414D453E494E465241434F4D3C2F554E414D453E3C4E43504F533E303038303035363334393030303031303C2F4E43504F533E3C5642454C4E3E303030343037343430373C2F5642454C4E3E3C59504F534E3E303030343037343430373030303031303C2F59504F534E3E3C4C465354413E433C2F4C465354413E3C45524E414D3E47544F4D4153494E493C2F45524E414D3E3C4453544D523E303030303030373436383C2F4453544D523E3C435553544E4D3E303030303136303132393C2F435553544E4D3E3C564B4255523E3130303C2F564B4255523E3C564B4752503E30323C2F564B4752503E3C4B564752313E3235303C2F4B564752313E3C4B564752323E4845543C2F4B564752323E3C4B564752333E4652523C2F4B564752333E3C4B564752343E30333C2F4B564752343E3C4B564752353E3C2F4B564752353E3C4C414E44313E49543C2F4C414E44313E3C524547494F3E42413C2F524547494F3E3C425A49524B3E4C5349543C2F425A49524B3E3C4B444752503E30323C2F4B444752503E3C4B554B4C413E413C2F4B554B4C413E3C494E434F313E4441503C2F494E434F313E3C594D41544E3E31393830303238313230303C2F594D41544E3E3C594D5441523E464552543C2F594D5441523E3C5941544B4C3E53414C3C2F5941544B4C3E3C59524448413E53414C434F4D41434350524F3C2F59524448413E3C59544950523E4D454343414E4F2053595354454D3C2F59544950523E3C5950524F443E50524F46494C4F3C2F5950524F443E3C59564152493E3C2F59564152493E3C59564552533E5449504F2D31205449504F2D323C2F59564552533E3C59435553543E3C2F59435553543E3C594150504C3E3C2F594150504C3E3C59464953533E3C2F59464953533E3C5944494C553E3C2F5944494C553E3C5946494E493E3C2F5946494E493E3C59464953433E3C2F59464953433E3C594C554E3E20202020202020202020202020202020302E303C2F594C554E3E3C594C41523E20202020202020202020202020202020302E303C2F594C41523E3C5954494C453E3C2F5954494C453E3C5954434F4C3E3C2F5954434F4C3E3C595644433E20202020202020202020202020202020302E303C2F595644433E3C595641433E3C2F595641433E3C594944433E20202020202020202020202020202020302E303C2F594944433E3C59504F543E20202020202020202020202020202020302E303C2F59504F543E3C59434F4E543E3C2F59434F4E543E3C59415249503E3C2F59415249503E3C59564745313E3C2F59564745313E3C59564745323E3C2F59564745323E3C59564745333E3C2F59564745333E3C59564745343E3C2F59564745343E3C59564745353E3C2F59564745353E3C595A5445523E523331333C2F595A5445523E3C594750414E3E3C2F594750414E3E3C5A4C4E42533E4449533C2F5A4C4E42533E3C594D4553453E3030323C2F594D4553453E3C594D4D41413E3030322E323031383C2F594D4D41413E3C59545245463E303030303031323736333C2F59545245463E3C5A504F534E3E3030303031303C2F5A504F534E3E3C5A4454554D3E323031382D30322D30313C2F5A4454554D3E3C5A43504F533E3030303031303C2F5A43504F533E3C594E4554573E35372E303C2F594E4554573E3C59444C41593E302E303C2F59444C41593E3C59494E41443E302E303C2F59494E41443E3C594C5443463E302E303C2F594C5443463E3C594C5452433E302E303C2F594C5452433E3C594F4E544D3E312E303C2F594F4E544D3E3C59564C434E3E35372E303C2F59564C434E3E3C594C46494D3E31302E303C2F594C46494D3E3C594C46494D5F554E49543E53543C2F594C46494D5F554E49543E3C594C474D4E3E31302E303C2F594C474D4E3E3C594C474D4E5F554E49543E53543C2F594C474D4E5F554E49543E3C594E5249543E312E303C2F594E5249543E3C59445249433E312E303C2F59445249433E3C2F5A43463830323E3C5A43463830323E3C4348414E47455F494E443E3C2F4348414E47455F494E443E3C4D414E44543E3330303C2F4D414E44543E3C56455253494F3E3030303C2F56455253494F3E3C504C414354493E303C2F504C414354493E3C59454152423E323031383C2F59454152423E3C50455244453E3030353C2F50455244453E3C594B4F52473E313030303C2F594B4F52473E3C59545745473E31303C2F59545745473E3C565354454C3E533130303C2F565354454C3E3C59535041523E31303C2F59535041523E3C5945524B533E313030303C2F5945524B533E3C56425459503E4A3C2F56425459503E3C4C464152543E4C463C2F4C464152543E3C59505354593E54414E3C2F59505354593E3C4E52434F4E3E303038303035363334393C2F4E52434F4E3E3C5245434E523E30353031373537323C2F5245434E523E3C414544544D3E323032302D31302D32383C2F414544544D3E3C554E414D453E494E465241434F4D3C2F554E414D453E3C4E43504F533E303038303035363334393030303032303C2F4E43504F533E3C5642454C4E3E303030343037343430373C2F5642454C4E3E3C59504F534E3E303030343037343430373030303039303C2F59504F534E3E3C4C465354413E433C2F4C465354413E3C45524E414D3E47544F4D4153494E493C2F45524E414D3E3C4453544D523E303030303030373436383C2F4453544D523E3C435553544E4D3E303030303136303132393C2F435553544E4D3E3C564B4255523E3130303C2F564B4255523E3C564B4752503E30323C2F564B4752503E3C4B564752313E3235303C2F4B564752313E3C4B564752323E4845543C2F4B564752323E3C4B564752333E4652523C2F4B564752333E3C4B564752343E30333C2F4B564752343E3C4B564752353E3C2F4B564752353E3C4C414E44313E49543C2F4C414E44313E3C524547494F3E42413C2F524547494F3E3C425A49524B3E4C5349543C2F425A49524B3E3C4B444752503E30323C2F4B444752503E3C4B554B4C413E413C2F4B554B4C413E3C494E434F313E4441503C2F494E434F313E3C594D41544E3E31323830373532303030303C2F594D41544E3E3C594D5441523E464552543C2F594D5441523E3C5941544B4C3E53414C3C2F5941544B4C3E3C59524448413E53414C43504353454E49525F3C2F59524448413E3C59544950523E4D454343414E4F2053595354454D3C2F59544950523E3C5950524F443E53454E534F52453C2F5950524F443E3C59564152493E3C2F59564152493E3C59564552533E3C2F59564552533E3C59435553543E3C2F59435553543E3C594150504C3E3C2F594150504C3E3C59464953533E3C2F59464953533E3C5944494C553E3C2F5944494C553E3C5946494E493E3C2F5946494E493E3C59464953433E3C2F59464953433E3C594C554E3E20202020202020202020202020202020302E303C2F594C554E3E3C594C41523E20202020202020202020202020202020302E303C2F594C41523E3C5954494C453E3C2F5954494C453E3C5954434F4C3E3C2F5954434F4C3E3C595644433E20202020202020202020202020202020302E303C2F595644433E3C595641433E3C2F595641433E3C594944433E20202020202020202020202020202020302E303C2F594944433E3C59504F543E20202020202020202020202020202020302E303C2F59504F543E3C59434F4E543E3C2F59434F4E543E3C59415249503E3C2F59415249503E3C59564745313E3C2F59564745313E3C59564745323E3C2F59564745323E3C59564745333E3C2F59564745333E3C59564745343E3C2F59564745343E3C59564745353E3C2F59564745353E3C595A5445523E523331333C2F595A5445523E3C594750414E3E3C2F594750414E3E3C5A4C4E42533E4449533C2F5A4C4E42533E3C594D4553453E3030323C2F594D4553453E3C594D4D41413E3030322E323031383C2F594D4D41413E3C59545245463E303030303031323736343C2F59545245463E3C5A504F534E3E3030303039303C2F5A504F534E3E3C5A4454554D3E323031382D30322D30313C2F5A4454554D3E3C5A43504F533E3030303032303C2F5A43504F533E3C594E4554573E37372E343C2F594E4554573E3C59444C41593E302E303C2F59444C41593E3C59494E41443E302E303C2F59494E41443E3C594C5443463E302E303C2F594C5443463E3C594C5452433E31342E303C2F594C5452433E3C594F4E544D3E312E303C2F594F4E544D3E3C59564C434E3E37372E343C2F59564C434E3E3C594C46494D3E31382E303C2F594C46494D3E3C594C46494D5F554E49543E53543C2F594C46494D5F554E49543E3C594C474D4E3E31382E303C2F594C474D4E3E3C594C474D4E5F554E49543E53543C2F594C474D4E5F554E49543E3C594E5249543E312E303C2F594E5249543E3C59445249433E302E303C2F59445249433E3C2F5A43463830323E3C2F544558543E3C2F6173783A76616C7565733E3C2F6173783A616261703E" id="_q-NkMBkmEeu8o7zKHzN7eA" name="ZCF802" xmi:id="_q-NkMRkmEeu8o7zKHzN7eA">
+    <schema AbsoluteXPathQuery="/asx:abap/asx:values/TEXT/ZCF802" LimitBoucle="1000000" xmi:id="_q-NkMhkmEeu8o7zKHzN7eA">
+      <schemaTargets RelativeXPathQuery="CHANGE_IND" TagName="CHANGE_IND" xmi:id="_q-NkMxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="MANDT" TagName="MANDT" xmi:id="_q-NkNBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="VERSIO" TagName="VERSIO" xmi:id="_q-NkNRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="PLACTI" TagName="PLACTI" xmi:id="_q-NkNhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YEARB" TagName="YEARB" xmi:id="_q-NkNxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="PERDE" TagName="PERDE" xmi:id="_q-NkOBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YKORG" TagName="YKORG" xmi:id="_q-NkORkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YTWEG" TagName="YTWEG" xmi:id="_q-NkOhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="VSTEL" TagName="VSTEL" xmi:id="_q-NkOxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YSPAR" TagName="YSPAR" xmi:id="_q-NkPBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YERKS" TagName="YERKS" xmi:id="_q-NkPRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="VBTYP" TagName="VBTYP" xmi:id="_q-NkPhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="LFART" TagName="LFART" xmi:id="_q-NkPxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YPSTY" TagName="YPSTY" xmi:id="_q-NkQBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="NRCON" TagName="NRCON" xmi:id="_q-NkQRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="RECNR" TagName="RECNR" xmi:id="_q-NkQhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="AEDTM" TagName="AEDTM" xmi:id="_q-NkQxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="UNAME" TagName="UNAME" xmi:id="_q-NkRBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="NCPOS" TagName="NCPOS" xmi:id="_q-NkRRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="VBELN" TagName="VBELN" xmi:id="_q-NkRhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YPOSN" TagName="YPOSN" xmi:id="_q-NkRxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="LFSTA" TagName="LFSTA" xmi:id="_q-NkSBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="ERNAM" TagName="ERNAM" xmi:id="_q-NkSRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="DSTMR" TagName="DSTMR" xmi:id="_q-NkShkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="CUSTNM" TagName="CUSTNM" xmi:id="_q-NkSxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="VKBUR" TagName="VKBUR" xmi:id="_q-NkTBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="VKGRP" TagName="VKGRP" xmi:id="_q-NkTRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="KVGR1" TagName="KVGR1" xmi:id="_q-NkThkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="KVGR2" TagName="KVGR2" xmi:id="_q-NkTxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="KVGR3" TagName="KVGR3" xmi:id="_q-NkUBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="KVGR4" TagName="KVGR4" xmi:id="_q-NkURkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="KVGR5" TagName="KVGR5" xmi:id="_q-NkUhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="LAND1" TagName="LAND1" xmi:id="_q-NkUxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="REGIO" TagName="REGIO" xmi:id="_q-NkVBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="BZIRK" TagName="BZIRK" xmi:id="_q-NkVRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="KDGRP" TagName="KDGRP" xmi:id="_q-NkVhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="KUKLA" TagName="KUKLA" xmi:id="_q-NkVxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="INCO1" TagName="INCO1" xmi:id="_q-NkWBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YMATN" TagName="YMATN" xmi:id="_q-NkWRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YMTAR" TagName="YMTAR" xmi:id="_q-NkWhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YATKL" TagName="YATKL" xmi:id="_q-NkWxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YRDHA" TagName="YRDHA" xmi:id="_q-NkXBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YTIPR" TagName="YTIPR" xmi:id="_q-NkXRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YPROD" TagName="YPROD" xmi:id="_q-NkXhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YVARI" TagName="YVARI" xmi:id="_q-NkXxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YVERS" TagName="YVERS" xmi:id="_q-NkYBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YCUST" TagName="YCUST" xmi:id="_q-NkYRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YAPPL" TagName="YAPPL" xmi:id="_q-NkYhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YFISS" TagName="YFISS" xmi:id="_q-NkYxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YDILU" TagName="YDILU" xmi:id="_q-NkZBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YFINI" TagName="YFINI" xmi:id="_q-NkZRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YFISC" TagName="YFISC" xmi:id="_q-NkZhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YLUN" TagName="YLUN" xmi:id="_q-NkZxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YLAR" TagName="YLAR" xmi:id="_q-NkaBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YTILE" TagName="YTILE" xmi:id="_q-NkaRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YTCOL" TagName="YTCOL" xmi:id="_q-NkahkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YVDC" TagName="YVDC" xmi:id="_q-NkaxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YVAC" TagName="YVAC" xmi:id="_q-NkbBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YIDC" TagName="YIDC" xmi:id="_q-NkbRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YPOT" TagName="YPOT" xmi:id="_q-NkbhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YCONT" TagName="YCONT" xmi:id="_q-NkbxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YARIP" TagName="YARIP" xmi:id="_q-NkcBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YVGE1" TagName="YVGE1" xmi:id="_q-NkcRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YVGE2" TagName="YVGE2" xmi:id="_q-NkchkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YVGE3" TagName="YVGE3" xmi:id="_q-NkcxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YVGE4" TagName="YVGE4" xmi:id="_q-NkdBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YVGE5" TagName="YVGE5" xmi:id="_q-NkdRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YZTER" TagName="YZTER" xmi:id="_q-NkdhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YGPAN" TagName="YGPAN" xmi:id="_q-NkdxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="ZLNBS" TagName="ZLNBS" xmi:id="_q-NkeBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YMESE" TagName="YMESE" xmi:id="_q-NkeRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YMMAA" TagName="YMMAA" xmi:id="_q-NkehkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YTREF" TagName="YTREF" xmi:id="_q-NkexkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="ZPOSN" TagName="ZPOSN" xmi:id="_q-NkfBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="ZDTUM" TagName="ZDTUM" xmi:id="_q-NkfRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="ZCPOS" TagName="ZCPOS" xmi:id="_q-NkfhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YNETW" TagName="YNETW" xmi:id="_q-NkfxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YDLAY" TagName="YDLAY" xmi:id="_q-NkgBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YINAD" TagName="YINAD" xmi:id="_q-NkgRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YLTCF" TagName="YLTCF" xmi:id="_q-NkghkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YLTRC" TagName="YLTRC" xmi:id="_q-NkgxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YONTM" TagName="YONTM" xmi:id="_q-NkhBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YVLCN" TagName="YVLCN" xmi:id="_q-NkhRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YLFIM" TagName="YLFIM" xmi:id="_q-NkhhkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YLFIM_UNIT" TagName="YLFIM_UNIT" xmi:id="_q-NkhxkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YLGMN" TagName="YLGMN" xmi:id="_q-NkiBkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YLGMN_UNIT" TagName="YLGMN_UNIT" xmi:id="_q-NkiRkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YNRIT" TagName="YNRIT" xmi:id="_q-NkihkmEeu8o7zKHzN7eA"/>
+      <schemaTargets RelativeXPathQuery="YDRIC" TagName="YDRIC" xmi:id="_q-NkixkmEeu8o7zKHzN7eA"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_q-NkMRkmEeu8o7zKHzN7eA" name="default" xmi:id="_q-NkjBkmEeu8o7zKHzN7eA">
+    <ownedElement id="_j8aVYBkmEeu8o7zKHzN7eA" label="metadata" xmi:id="_q-NkjRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataTable">
+      <feature comment="Tipo modifica" label="CHANGE_IND" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkjhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Mandante" label="MANDT" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkjxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Versione" label="VERSIO" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkkBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Pianificato o Effettivo" label="PLACTI" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkkRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Esercizio" label="YEARB" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_q-NkkhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Periodo" label="PERDE" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_q-NkkxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Org. Commerciale" label="YKORG" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NklBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Canale distribuzione" label="YTWEG" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NklRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Luogo Spedizione" label="VSTEL" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NklhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Settore Merceologico" label="YSPAR" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NklxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Divisione" label="YERKS" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkmBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Tipo documento" label="VBTYP" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_q-NkmRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Tipo di consegna" label="LFART" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkmhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Cat.Posizione doc.commerciale" label="YPSTY" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkmxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Consegna" label="NRCON" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NknBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Numero record" label="RECNR" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NknRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data modifica" label="AEDTM" length="10" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_q-NknhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Nome utente" label="UNAME" length="12" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NknxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Nro consegna/Posiz." label="NCPOS" length="16" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkoBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Doc. Vendita" label="VBELN" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkoRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Doc. vendita/Pos." label="YPOSN" length="16" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkohkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Stato consegna" label="LFSTA" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_q-NkoxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Utente inseritore" label="ERNAM" length="12" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkpBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Destinatario merci" label="DSTMR" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkpRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Codice Cliente" label="CUSTNM" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkphkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Ufficio vendite" label="VKBUR" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkpxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gruppo Addetto Vendite" label="VKGRP" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkqBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gruppo Clienti-1 (Area)" label="KVGR1" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkqRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gruppo Clienti-2 (Cliente Budget)" label="KVGR2" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkqhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gruppo Clienti-3 (Settore)" label="KVGR3" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkqxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gruppo Clienti-4" label="KVGR4" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkrBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gruppo Clienti-5" label="KVGR5" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkrRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Codice Paese" label="LAND1" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkrhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Provincia" label="REGIO" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkrxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Divisione Commerciale" label="BZIRK" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NksBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gruppo Clienti" label="KDGRP" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NksRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Classificazione Clienti" label="KUKLA" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkshkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Inconterms 1" label="INCO1" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NksxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Codice Materiale" label="YMATN" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NktBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Tipo materiale" label="YMTAR" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NktRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gruppo merci" label="YATKL" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkthkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gerarchia prodotti" label="YRDHA" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NktxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. Tipo prodotto" label="YTIPR" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkuBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. prodotto" label="YPROD" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkuRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. variante" label="YVARI" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkuhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. versione" label="YVERS" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkuxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. custom" label="YCUST" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkvBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. applicazione" label="YAPPL" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkvRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. fissaggio" label="YFISS" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkvhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. direzione luce" label="YDILU" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkvxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. finitura" label="YFINI" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkwBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. finitura schermo" label="YFISC" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkwRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. lunghezza" label="YLUN" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkwhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. larghezza" label="YLAR" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkwxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. tipo led" label="YTILE" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkxBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. temperatura colore" label="YTCOL" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkxRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. VDC" label="YVDC" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkxhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. VAC" label="YVAC" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkxxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. IDC" label="YIDC" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkyBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. potenza" label="YPOT" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkyRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. controller" label="YCONT" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkyhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Art. IP" label="YARIP" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkyxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="UM std1" label="YVGE1" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkzBkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="UM std2" label="YVGE2" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkzRkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="UM std3" label="YVGE3" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkzhkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="UM std4" label="YVGE4" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-NkzxkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="UM std5" label="YVGE5" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-Nk0BkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Condiz. pagamento" label="YZTER" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-Nk0RkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Agente" label="YGPAN" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-Nk0hkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Linee di Business" label="ZLNBS" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-Nk0xkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Mese competenza" label="YMESE" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_q-Nk1BkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Mese ed Esercizio" label="YMMAA" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-Nk1RkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="ID record" label="YTREF" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_q-Nk1hkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Posizione del documento di vendita" label="ZPOSN" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_q-Nk1xkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Data movimento merci effettiva" label="ZDTUM" length="10" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_q-Nk2BkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Posizione consegna" label="ZCPOS" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_q-Nk2RkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Valore consegnato" label="YNETW" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_q-Nk2hkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Delay" label="YDLAY" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_q-Nk2xkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="In advance" label="YINAD" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_q-Nk3BkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="LT vend su conferm." label="YLTCF" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_q-Nk3RkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="LT vend su richiesto" label="YLTRC" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_q-Nk3hkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="On-time" label="YONTM" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_q-Nk3xkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Valore consegna" label="YVLCN" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_q-Nk4BkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Q.tà consegnata" label="YLFIM" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_q-Nk4RkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Unità" label="YLFIM_UNIT" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-Nk4hkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Q.tà in consegna" label="YLGMN" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_q-Nk4xkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Unità" label="YLGMN_UNIT" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_q-Nk5BkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="N.ro items" label="YNRIT" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_q-Nk5RkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Delta richiesta" label="YDRIC" length="15" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_q-Nk5hkmEeu8o7zKHzN7eA" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8faa40a9-2816-46e8-b06a-2b73338d68fc"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>W9yvMP2fz8N/cCew3WVIXIENUGvUTKKD4Z08lsQVVTSpGS06AgLit4Od+IF4kEQL1eDv993ZaMPX
+T7gOzhFbBA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_88ade379-a806-4e78-9115-3d984ac8ffc4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>40n1NgWOYUBhS57dCR3y7Qg0UIgrBRB2vLmOooiowEzV9PTCKrTXX2NLR4KQjchrLP5UN6yS8wus
+O8yIq7loEg==</DigestValue></Reference></SignedInfo><SignatureValue>Dd7a69aNWAVU8hpMppjTIIQ3ThXL17syRk0C9B82mbQVncc3HEXoGmVOa+q+2O+D81tCOvNbF6ez
+AMFLJL5/0WmLwVU2t724zsMih5r3oj9n/qszvvODAeJyBqhCWqYIpGlnIb053ZDBspOwYzP3eyIe
+zrlrfb+JeMoT8ObDqomNDgh/E8m862gmuQpXA1ODSRJoEhvJ+0CrY7yEUdDerQ+bXh5YMVhWI7aO
+OIKB2cnV9fktddrd768SRLXykaRDkWMk1B8uUrvrc0EjiJqW7S6KOsPbTvD0VCsOLtH0ho83upJ7
+X68s/hGMsHzvwyp4a6a0uwsj17lIzICXJRtv5A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_88ade379-a806-4e78-9115-3d984ac8ffc4" Target="#_8faa40a9-2816-46e8-b06a-2b73338d68fc"><Timestamp>2020-11-19 10:30:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

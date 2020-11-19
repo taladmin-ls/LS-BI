@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_y-32USKaEeuM0YTvTjxgEw" label="LS-BI" description="L&amp;S Italia S.p.A. - Group BI" language="java" technicalLabel="LS_BI" author="_y-32UiKaEeuM0YTvTjxgEw" productVersion="Talend Cloud Data Integration-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/taladmin-ls/LS-BI.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false">
+  <TalendProperties:Project xmi:id="_y-32USKaEeuM0YTvTjxgEw" label="LS-BI" description="L&amp;S Italia S.p.A. - Group BI" language="java" technicalLabel="LS_BI" author="_y-32UiKaEeuM0YTvTjxgEw" productVersion="Talend Cloud Data Integration-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/taladmin-ls/LS-BI.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_zHauUCKaEeuM0YTvTjxgEw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_y-32UiKaEeuM0YTvTjxgEw" login="tizianotomiet1@lslight.com" firstName="Tiziano" lastName="Tomiet" type="DI"/>
