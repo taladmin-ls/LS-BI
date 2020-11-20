@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:nlIWMFLEVDcTf9+2ck9pAeH4WoKotINx8AVbDC+K"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:fBQLzEPQ2SYcvnI2AmkdEs14XOZV9xXXWX51Pnn5"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:bdBr/qt9KWxhQ7Q8Hvo9Ctp9ltrCRox3AjmGPZM3"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:4tJe0rROQ9J0lLr/D3OLWyOpwQBX2N+PKRLbYotn"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -450,7 +450,7 @@
       <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -527,7 +527,7 @@
       <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -611,7 +611,7 @@
       <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -696,7 +696,7 @@
       <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -773,7 +773,7 @@
       <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -850,7 +850,7 @@
       <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -1041,7 +1041,7 @@
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROTECT_FILE" value="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:qbVfhUO7Bw5alhhxK/9+ild99sPw1swZdAw+Zcu/"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:GihbV8kPcqEX/yMN/y2C2KqZEr52A5klBExJS85Q"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="100"/>
@@ -1112,7 +1112,7 @@
       <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -1176,13 +1176,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9d01338d-8c8a-4748-a8ec-27a6a374ced4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>65fXUeEofN06LXt/Rkoxuw+PFiIqht0EZMj+teP4txpX+ap1Vt+FwQq/tpXHdgUXnBClOZ51ikaf
-E4EcUmtG7Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d1370e96-a6c9-4952-ad05-c38d813bbec5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>++SDbX1FjWjQm2cZ36t9La5iMihoUfMc3zTf/2nQ4FsOkYFKE//Sf36Z67MnFUr4e3+ov2NJSB+D
-JOPpoG4MPw==</DigestValue></Reference></SignedInfo><SignatureValue>KFtYxYBPukV6YyGE518OBgBxQ68NBA2hFMbPKHq50Qz/XMKdPaUetnEzN/NDFG+Rh//kaGLNe/NQ
-iOhtWqLrgAIWqJluJryqMc5QPwMPlYyR1/FyIVyh4T1U/WOwi6NQp2EhbNC9MPizzyW5F2fzv/pe
-UQ15yYNWQUzefnYBHuRIc0npgwV73bgwSXDl/uGjDy1r4ZSxJnopHr4X9IBKRZGzjzUbAAaJWCfH
-FZ7GdfX15ZCSAX37oSGD+oAlzma3un5VK4y2wBjVD/x3WgAEiZuRO0uqYdzjbBknCbrcbglAwYNj
-QO+ffNvtbnFeL1UU7LMZhGN6t5FaYHCqtZCMSQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_27021866-ac58-4a5a-a306-644424e3ee4e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>emuP/4hSbtg49kU5P64B66WznvpO5Pz67fhGAlxC8g6nA3WnoIlADUPBR5xwyfaBwP/DoNIfEkUr
+I0AwMGG/2Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b62a22fc-2a59-48ac-8238-4ad852b89b9e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RMoi89Y4aFftWU+MTW/prJR6ARv51G8ubnAr9WU1M3+0+Bi6Cxf3Of0WPRrIdrJreY9KBCZ78qlU
+ZOXcXf3aAw==</DigestValue></Reference></SignedInfo><SignatureValue>df766Dc6YE3frqhtc5Hb2tDdB7U0+r3BjfuOtg3v3qCg+TdW557S6ac3mv9k0uXcp0V5Vnbgeuyw
+/B/tDT1YaiUYOQP92TxxAbK5CoWMUEu8qze8A5QGufJ/W0h2CNNOwLZeYavtFNCNf8/tx/PdD2fG
+e5pDR5wQQt76JoDYGgJVspXfhZsYzAJ7nun9R+O+df5+pYo2Aj4bTlUbblhBQcsQZOa3SiSNJxfP
+s1ySe5L9ELwIleSoqgAtKt8c9L4OD9lmwGXE7e6/EbEhc5Uauoypj7MNvxwj1WogtuIsF0vOYVJc
+3UUrv0nGCJ9waLA6BWrxhtb70+XG1hLxsP9AQA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -1204,4 +1204,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d1370e96-a6c9-4952-ad05-c38d813bbec5" Target="#_9d01338d-8c8a-4748-a8ec-27a6a374ced4"><Timestamp>2020-11-20 11:01:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b62a22fc-2a59-48ac-8238-4ad852b89b9e" Target="#_27021866-ac58-4a5a-a306-644424e3ee4e"><Timestamp>2020-11-20 11:04:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
