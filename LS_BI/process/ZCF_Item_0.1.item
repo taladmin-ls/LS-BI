@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:P/yuGgp9cTquauSdLmUKP/ZfMq3KuREW3GTIjEoz"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:w2s8CbOt0fa7YE58O/MgWX0OyFL18PwBh9GHOgNk"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:z+OfXr4TBeeOU4cC0gcwyIUZNZeZSZnP4Lz86qTP"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:XOP8x38RS9BwjnxmHk6amiTlVuT2ZE3+pljWNHu9"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -467,7 +467,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
@@ -544,7 +544,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorXMLField" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
@@ -628,7 +628,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
@@ -713,7 +713,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="FILTER" label="metadata" name="FILTER">
@@ -790,7 +790,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
@@ -867,7 +867,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -1041,7 +1041,7 @@
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROTECT_FILE" value="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:Vr6cc/ZffjKqccVX4q5y54LZRSbdwAbnABmfLPli"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:KJx3ZEK0IE+9duq7FNzP5p3R0kB6b/AwMt1poqVW"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="100"/>
@@ -1129,7 +1129,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
@@ -1176,13 +1176,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a2233661-f158-4015-9a85-db070cf1dfe5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3ir6+oB8jyfQ2YQfiZWUwYDDSkFJR48f2PYY7goiLNKFehrrlzMaOELPLQ+c6qOL3kVxAJDCU6K1
-GsO79u5A3w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d01e722a-7d09-4a5c-8e70-53e02ad4c35b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZzqyAaxMuc/fcPtbPMHyyqXsSZpX7DOKM6tGpiQACGqWTzsA37ErzS6u0VlLl4WYLznVUaWQ2Tr+
-1m1EjSPuYQ==</DigestValue></Reference></SignedInfo><SignatureValue>Gbi+Rxsb+HKhliBPRr9We/U5CWiMIDZr1hxePxjAL9m2XwRc77Oxbj3QYnlyoVygoFXCy4nqUKaz
-FZwNJEHzIcNCTaj9uNd6FWOeBPzleQivfQKew0ieSQTiWJ9NpM4PZ6Tk8J0GoWeDNEizHiqhKfci
-Sh/nVN1gi6TMP5OH1i8Ccnw+O9evoLpG4Dgo+Udc7ho+SWUToHV12tqClcegolFG61pW3e5gf44z
-Mc8BItceD/KrbOl+8EdaChD1CGLC4/8Cy0EKNDK/epPNkGWrDMycjeW/BKheJ1v9xoq46fD+C2ce
-ecPntUpBwSWN5dAqOoSxlTxSnRtk1ToZtfAu8w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_12caa1d2-d1e6-4bca-920d-735f54d3c14a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xgLpFe/OA/pUg7AGKtg1X9NAd4pfHIN915wNxO52wv+5c6Q/sKGV2csJMcjsUdCQUFI4RoH8Gglp
+5voCSwCKfg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_62699cc2-ce29-436c-82b6-84c95aaef6c6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DLZEYE7EVGj//Jnid9ozn0FxnYXkvdKekF5bYR98j3Hv2+DtqWHJSQ3he+zLc0LBIwWvHO7ko8Fm
+Q0pH32XoyA==</DigestValue></Reference></SignedInfo><SignatureValue>koxagdjX6JhJWXWdJL1LwjG8tfAkpfTzOU7md5ORhbf/aV1BNYNER71JGHUF2vfgL3PD3Gg4rG4/
+q7plZHFgJeSPQVH+6E02w0GHZ40kubAe4ItJEp9Ap8QEaybBuJNi0DDsNpAkfXy0wSLO1ak1mdPu
+b1z28nosRB3ow/POjBsN7G7U238B34qqoDEB1G9ifZmG+Z8jcqpgLx8ZKvW3T/l6dksvww1fybrm
+yfETc/E5LvqK40+aT3/TKcjC6eOHk03zsBfGPFc1lYvV/My9njAlb3FujsL8Qm+u3caCj0Ad7HA6
+QVeIwlrb8j1aw29vN5sVh94eKNkgNiD7hYfwKQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -1204,4 +1204,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d01e722a-7d09-4a5c-8e70-53e02ad4c35b" Target="#_a2233661-f158-4015-9a85-db070cf1dfe5"><Timestamp>2020-11-20 11:05:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_62699cc2-ce29-436c-82b6-84c95aaef6c6" Target="#_12caa1d2-d1e6-4bca-920d-735f54d3c14a"><Timestamp>2020-11-20 11:06:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
