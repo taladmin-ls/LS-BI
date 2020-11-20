@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:RDW23E2qygFrud9A/UoeKMZl1ZgVSvy0fT7BAbYN"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Ac9bet8lOS5ZbKupU8pu+QnBzq3EocT/nsIlKTX6"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:3BU81kSV9cJHIqDvfwtcnWbDYSAXJdGu7ELyEzgh"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:1h1uQxx4zYjZf6cKtytmTiPg+5Pca5MRI7V4/gj5"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -160,229 +160,229 @@
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="MATNR"/>
       <elementValue elementRef="QUERY" value="&quot;MATNR&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MAKTX"/>
       <elementValue elementRef="QUERY" value="&quot;MAKTX&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ERSDA"/>
       <elementValue elementRef="QUERY" value="&quot;ERSDA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ERNAM"/>
       <elementValue elementRef="QUERY" value="&quot;ERNAM&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="LAEDA"/>
       <elementValue elementRef="QUERY" value="&quot;LAEDA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="AENAM"/>
       <elementValue elementRef="QUERY" value="&quot;AENAM&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="LVORM"/>
       <elementValue elementRef="QUERY" value="&quot;LVORM&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MTART"/>
       <elementValue elementRef="QUERY" value="&quot;MTART&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MATKL"/>
       <elementValue elementRef="QUERY" value="&quot;MATKL&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MEINS"/>
       <elementValue elementRef="QUERY" value="&quot;MEINS&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="BSTME"/>
       <elementValue elementRef="QUERY" value="&quot;BSTME&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="SPART"/>
       <elementValue elementRef="QUERY" value="&quot;SPART&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PRDHA"/>
       <elementValue elementRef="QUERY" value="&quot;PRDHA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="KZKFG"/>
       <elementValue elementRef="QUERY" value="&quot;KZKFG&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MSTAE"/>
       <elementValue elementRef="QUERY" value="&quot;MSTAE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MSTAV"/>
       <elementValue elementRef="QUERY" value="&quot;MSTAV&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ALIMENTATORE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ALIMENTATORE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ALIMENTAZIONE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ALIMENTAZIONE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_APPLICAZIONE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_APPLICAZIONE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_CONTROLLER"/>
       <elementValue elementRef="QUERY" value="&quot;ART_CONTROLLER&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_CRI"/>
       <elementValue elementRef="QUERY" value="&quot;ART_CRI&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_CUSTOM"/>
       <elementValue elementRef="QUERY" value="&quot;ART_CUSTOM&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_DIAMETRO_FORO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_DIAMETRO_FORO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_DIR_LUCE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_DIR_LUCE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_EAN_CLIENTE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_EAN_CLIENTE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_CERT_ETL"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_CERT_ETL&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_CERT_INCASSO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_CERT_INCASSO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_CERT_SPORGENTE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_CERT_SPORGENTE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_CLI_MULTIPLA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_CLI_MULTIPLA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_CLI_SINGOLA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_CLI_SINGOLA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_DATI_DI_TARGA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_DATI_DI_TARGA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_DEL_MULTIPLA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_DEL_MULTIPLA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_DEL_SINGOLA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_DEL_SINGOLA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_EAN_CLIENTE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_EAN_CLIENTE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_EAN_LS"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_EAN_LS&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_IMB_MULTIPLO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_IMB_MULTIPLO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_IMB_SINGOLO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_IMB_SINGOLO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_IMG_CLASSE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_IMG_CLASSE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_IMG_ENEC"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_IMG_ENEC&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_IMG_INCASSO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_IMG_INCASSO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_IMG_LOGO_AZI"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_IMG_LOGO_AZI&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_IMG_MULTIPLA1"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_IMG_MULTIPLA1&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_IMG_MULTIPLA2"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_IMG_MULTIPLA2&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ET_IMG_SINGOLA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ET_IMG_SINGOLA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_FINITURA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_FINITURA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_FINITURA_SCHERMO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_FINITURA_SCHERMO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_FISSAGGIO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_FISSAGGIO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_IDC"/>
       <elementValue elementRef="QUERY" value="&quot;ART_IDC&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ID_CLIENTE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ID_CLIENTE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_IP"/>
       <elementValue elementRef="QUERY" value="&quot;ART_IP&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_ISTRUZIONE_MONTAGGIO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_ISTRUZIONE_MONTAGGIO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_KIT"/>
       <elementValue elementRef="QUERY" value="&quot;ART_KIT&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_LARGHEZZA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_LARGHEZZA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_LUMEN"/>
       <elementValue elementRef="QUERY" value="&quot;ART_LUMEN&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_LUNGHEZZA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_LUNGHEZZA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_PESO_RAEE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_PESO_RAEE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_POTENZA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_POTENZA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_PRODOTTO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_PRODOTTO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_PROTOCOLLO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_PROTOCOLLO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_QTA_IMB_MULTIPLO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_QTA_IMB_MULTIPLO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_RAEE_NUM_PILE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_RAEE_NUM_PILE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_RAEE_NUM_SORG"/>
       <elementValue elementRef="QUERY" value="&quot;ART_RAEE_NUM_SORG&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_RAEE_PESO_PILA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_RAEE_PESO_PILA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_RAEE_TIPO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_RAEE_TIPO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_RAEE_TIPO_PILA"/>
       <elementValue elementRef="QUERY" value="&quot;ART_RAEE_TIPO_PILA&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_SORGENTE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_SORGENTE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_TEMP_COLORE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_TEMP_COLORE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_TEMP_COLORE_K"/>
       <elementValue elementRef="QUERY" value="&quot;ART_TEMP_COLORE_K&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_TIPO_LED"/>
       <elementValue elementRef="QUERY" value="&quot;ART_TIPO_LED&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_TIPO_PRODOTTO"/>
       <elementValue elementRef="QUERY" value="&quot;ART_TIPO_PRODOTTO&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_VAC"/>
       <elementValue elementRef="QUERY" value="&quot;ART_VAC&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_VARIANTE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_VARIANTE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_VARIANTE_2"/>
       <elementValue elementRef="QUERY" value="&quot;ART_VARIANTE_2&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_VDC"/>
       <elementValue elementRef="QUERY" value="&quot;ART_VDC&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ART_VERSIONE"/>
       <elementValue elementRef="QUERY" value="&quot;ART_VERSIONE&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIMIT" value="1000000"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
@@ -1041,7 +1041,7 @@
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROTECT_FILE" value="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:Uqs6kVDe3OT+QxcAQmnz6nnn9wT4EKZy1xcrJ2uB"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:IWHPE7OWQeXwzIKjkbYTeabK3r1pChFu1F68OWi6"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="100"/>
@@ -1176,13 +1176,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c0369b71-0fa4-41d7-9ce8-2a52f1f27132"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>176IeeU94R3iP7bw7nlrYte1Jeq8RdcdPqt6ufLuXiV0Jcjpd/qWAuwqFrnih+LJ6Jd7xw1Jz1DX
-pTRPS6dh6Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5a155d67-1a8c-42b4-b384-1cc46a865dfc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0e9f+pTicIdme9chUbooXgILIASLXChNtF3F4/fo3llhfBa6H+8HEtgJaRNU4sNRmP5EzVmFkuYv
-h231/aI8rA==</DigestValue></Reference></SignedInfo><SignatureValue>j2BS5Uie2b53SH8+gv9fy0cQqqQxxK5+Xk/5UoFO+KEfOdZzxG4scM27QC6ekCrgFOg5uKkmtjB4
-gPNVbjSOY0A4O2OWl+B3Klq5/tMUrzs9HICr75wyehs5q12CweDd1l7IyOzSqLaxqwo7hua3Sz7M
-V+y24BPvoiuCrxf1aVuwsM8tm4OO2lmOTqgjeePz2RXJaL70uJDxY904p5xJS72oZNp1mlPD2Vri
-PNVyCR+h/fA+tIaucyUwJGkqZvdR8Emf68iSZ6SP7VFGJrV6huBM0bb3L2hjTRXEkjmT462tY4U9
-+rjFGLoHhKtVQKzBP83sSujCUs/nFWKhuKOmQQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_dda02fe8-c0cf-4965-9bfb-1de8cc259fd2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2wKxDYJ8vKcui6MktUHAvo9dpBwxdrpZ7TckvMmfgDEmZ9bbmqD8EeaLhskCQh0FX/NUD7uSoAxT
+cFKanNpdkg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f8d8b71a-9e5a-4e13-9261-c4b97fd88477"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>plGGBLjLTVrlvSsPFO+htBQxFUGTaE9BCJQIQ/x6/isgMCCO/qWdeEYJSv6+ugLUjZnMVr4RKxsW
+ZzdhE49URg==</DigestValue></Reference></SignedInfo><SignatureValue>g83TPfBukMjbOxiq+zwPRZdvtucohpLghh4QVuodiXNxcRfC5Y4+pAm+PoEYIt7QLcI27V/DDVEO
+rF+qMJsB/dYLiPKIELLevjgglBdZBVNK9IK3893UCshTPyeSdmCkPTbImEH5IbOTyKyB6LCkOOEv
+MOOdX1PgFHv+3iX9ohQrmTh5IH/233KnwZGhuBoGfnTRlydAcyN3Qh3WU/iMw1i1P7Eunw06SV+U
+h0ShUJNLwXPeLarx5WWz/hAiqY77o/HeO8c3OzZGeqjKaO15zxIcdVZRMyucgPtwob1t0tkIJCJI
+GrlOqk/KnCaCI9tWCZjDiLs80D/NUAU0LOhWRw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -1204,4 +1204,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5a155d67-1a8c-42b4-b384-1cc46a865dfc" Target="#_c0369b71-0fa4-41d7-9ce8-2a52f1f27132"><Timestamp>2020-11-20 10:43:02</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f8d8b71a-9e5a-4e13-9261-c4b97fd88477" Target="#_dda02fe8-c0cf-4965-9bfb-1de8cc259fd2"><Timestamp>2020-11-20 10:48:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
