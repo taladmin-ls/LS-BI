@@ -80,90 +80,104 @@
   </TalendMetadata:XmlFileConnection>
   <orgomg.cwm.resource.record:RecordFile dataManager="_6Wso8CpwEeumKc-tFrn5Zg" name="default" xmi:id="_6WspPSpwEeumKc-tFrn5Zg">
     <ownedElement id="_sXfjICpwEeumKc-tFrn5Zg" label="metadata" xmi:id="_6WspPipwEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataTable">
-      <feature label="MATNR" length="17" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWkCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="MAKTX" length="39" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWkSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ERSDA" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_IJNWkipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ERNAM" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWkypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="LAEDA" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_IJNWlCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="AENAM" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWlSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="LVORM" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWlipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="MTART" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWlypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="MATKL" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWmCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="MEINS" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWmSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="BSTME" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWmipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="SPART" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWmypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="PRDHA" length="12" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWnCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="KZKFG" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWnSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="MSTAE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWnipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="MSTAV" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWnypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ALIMENTATORE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWoCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ALIMENTAZIONE" length="13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWoSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_APPLICAZIONE" length="15" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWoipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_CONTROLLER" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWoypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_CRI" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWpCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_CUSTOM" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWpSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_DIAMETRO_FORO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWpipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_DIR_LUCE" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWpypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_EAN_CLIENTE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWqCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_CERT_ETL" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWqSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_CERT_INCASSO" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWqipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_CERT_SPORGENTE" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWqypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_CLI_MULTIPLA" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWrCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_CLI_SINGOLA" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWrSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_DATI_DI_TARGA" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWripxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_DEL_MULTIPLA" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWrypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_DEL_SINGOLA" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWsCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_EAN_CLIENTE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWsSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_EAN_LS" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWsipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_IMB_MULTIPLO" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWsypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_IMB_SINGOLO" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWtCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_IMG_CLASSE" length="17" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWtSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_IMG_ENEC" length="13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWtipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_IMG_INCASSO" length="15" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWtypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_IMG_LOGO_AZI" length="17" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWuCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_IMG_MULTIPLA1" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWuSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_IMG_MULTIPLA2" length="22" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWuipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ET_IMG_SINGOLA" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWuypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_FINITURA" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWvCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_FINITURA_SCHERMO" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWvSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_FISSAGGIO" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWvipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_IDC" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWvypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ID_CLIENTE" length="13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_IP" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_ISTRUZIONE_MONTAGGIO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_KIT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_LARGHEZZA" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWxCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_LUMEN" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWxSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_LUNGHEZZA" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWxipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_PESO_RAEE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWxypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_POTENZA" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWyCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_PRODOTTO" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWySpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_PROTOCOLLO" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWyipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_QTA_IMB_MULTIPLO" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWyypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_RAEE_NUM_PILE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWzCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_RAEE_NUM_SORG" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWzSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_RAEE_PESO_PILA" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWzipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_RAEE_TIPO" length="15" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWzypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_RAEE_TIPO_PILA" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW0CpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_SORGENTE" length="14" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW0SpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_TEMP_COLORE" length="13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW0ipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_TEMP_COLORE_K" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW0ypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_TIPO_LED" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW1CpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_TIPO_PRODOTTO" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW1SpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_VAC" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW1ipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_VARIANTE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW1ypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_VARIANTE_2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW2CpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_VDC" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW2SpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature label="ART_VERSIONE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW2ipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="CODICE ARTICOLO" label="MATNR" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWkCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="DESCRIZIONE ARTICOLO" label="MAKTX" length="40" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWkSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="DATA INSERIMENTO" label="ERSDA" length="10" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_IJNWkipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="UTENTE INSERIMENTO" label="ERNAM" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWkypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="DATA MODIFICA" label="LAEDA" length="10" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_IJNWlCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="UTENTE MODIFICA" label="AENAM" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWlSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="FLAG CANCELLAZIONE LOGICA" label="LVORM" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWlipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_G76dwCsFEeumKc-tFrn5Zg"/>
+      </feature>
+      <feature comment="Tipo di materiale" label="MTART" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWlypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gruppo merci" label="MATKL" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWmCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Unità di misura di base" label="MEINS" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWmSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="UM dell'ordine d'acquisto" label="BSTME" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWmipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Settore merceologico" label="SPART" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWmypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Gerarchia prodotti" label="PRDHA" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWnCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Materiale configurabile" label="KZKFG" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWnSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Stato mat. valido per tutte le div." label="MSTAE" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWnipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="Stato materiale valido per tutta la catena di distr." label="MSTAV" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWnypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="TYPE OF POWER SUPPLY" label="ART_ALIMENTATORE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWoCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="TYPE OF SUPPLY" label="ART_ALIMENTAZIONE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWoSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="TYPE OF APPLICATION" label="ART_APPLICAZIONE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWoipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="EMBEDDED CONTROLLER" label="ART_CONTROLLER" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWoypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="CHROMATIC RENDERING INDEX" label="ART_CRI" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWpCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STANDARD/CUSTOM" label="ART_CUSTOM" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWpSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="HOLE DIAMETER" label="ART_DIAMETRO_FORO" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="1" talendType="id_Float" xmi:id="_IJNWpipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="LIGHT DIRECTION" label="ART_DIR_LUCE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWpypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="EAN CLIENTE" label="ART_EAN_CLIENTE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWqCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. CERT. ETL" label="ART_ET_CERT_ETL" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWqSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. CERT. INCASSO" label="ART_ET_CERT_INCASSO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWqipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_og3ugCp-EeumKc-tFrn5Zg"/>
+      </feature>
+      <feature comment="STAMPA ETIC. CERT. SPORGENTE" label="ART_ET_CERT_SPORGENTE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWqypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. CLIENTE MULTIPLA" label="ART_ET_CLI_MULTIPLA" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWrCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. CLIENTE SINGOLA" label="ART_ET_CLI_SINGOLA" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWrSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. DATI DI TARGA" label="ART_ET_DATI_DI_TARGA" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWripxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. DELIVERY MULTIPLA" label="ART_ET_DEL_MULTIPLA" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWrypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. DELIVERY SINGOLA" label="ART_ET_DEL_SINGOLA" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWsCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. EAN CLIENTE" label="ART_ET_EAN_CLIENTE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWsSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. EAN LS" label="ART_ET_EAN_LS" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWsipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. IMB. MULTIPLO" label="ART_ET_IMB_MULTIPLO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWsypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="STAMPA ETIC. IMB. SINGOLO" label="ART_ET_IMB_SINGOLO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWtCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="FILE LOGO CLASSE ISOLAMENTO" label="ART_ET_IMG_CLASSE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWtSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="FILE IMMAGINE ENEC" label="ART_ET_IMG_ENEC" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWtipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="FILE IMMAGINE LOGO INCASSO" label="ART_ET_IMG_INCASSO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWtypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="FILE IMMAGINE LOGO AZIENDA" label="ART_ET_IMG_LOGO_AZI" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWuCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="FILE IMG PRODOTTO MULTIPLA1" label="ART_ET_IMG_MULTIPLA1" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWuSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="FILE IMG PRODOTTO MULTIPLA2" label="ART_ET_IMG_MULTIPLA2" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWuipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="FILE IMG PRODOTTO SINGOLA" label="ART_ET_IMG_SINGOLA" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWuypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="PRODUCT FINISH" label="ART_FINITURA" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWvCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="SCREEN FINISH" label="ART_FINITURA_SCHERMO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWvSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="PRODUCT FIXING" label="ART_FISSAGGIO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWvipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="CONTINUOUS CURRENT" label="ART_IDC" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="1" talendType="id_Float" xmi:id="_IJNWvypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="CLIENTE ORGANIZZAZIONE CANALE" label="ART_ID_CLIENTE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="IP PROTECTION DEGREE" label="ART_IP" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_0uLHsCsUEeumKc-tFrn5Zg"/>
+      </feature>
+      <feature comment="ISTRUZIONE MONTAGGIO" label="ART_ISTRUZIONE_MONTAGGIO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="KIT" label="ART_KIT" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="PRODUCT WIDTH" label="ART_LARGHEZZA" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="1" talendType="id_Float" xmi:id="_IJNWxCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="LUMINOUS FLUX" label="ART_LUMEN" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="1" talendType="id_Float" xmi:id="_IJNWxSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_4uQDMCsaEeumKc-tFrn5Zg"/>
+      </feature>
+      <feature comment="PRODUCT LENGTH" label="ART_LUNGHEZZA" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="1" talendType="id_Float" xmi:id="_IJNWxipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_o5VAoCsUEeumKc-tFrn5Zg"/>
+      </feature>
+      <feature comment="PESO RAEE IN KG" label="ART_PESO_RAEE" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_IJNWxypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="POWER" label="ART_POTENZA" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="1" talendType="id_Float" xmi:id="_IJNWyCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="PRODUCT NAME" label="ART_PRODOTTO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWySpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="PROJECT CHARTER" label="ART_PROTOCOLLO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWyipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_gftDQCsUEeumKc-tFrn5Zg"/>
+      </feature>
+      <feature comment="QUANTITY' MULTI-PACKAGING" label="ART_QTA_IMB_MULTIPLO" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_IJNWyypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="NUMERO DI PILE" label="ART_RAEE_NUM_PILE" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_IJNWzCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_8wSh0CsFEeumKc-tFrn5Zg"/>
+      </feature>
+      <feature comment="NUMERO SORGENTI LUMINOSE" label="ART_RAEE_NUM_SORG" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_IJNWzSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="PESO RAEE PILA IN KG" label="ART_RAEE_PESO_PILA" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_IJNWzipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="TYPE OF PRODUCT RAEE" label="ART_RAEE_TIPO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWzypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="TIPOLOGIA PILA" label="ART_RAEE_TIPO_PILA" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW0CpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="TYPE OF LIGHT SOURCE" label="ART_SORGENTE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW0SpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="COLOUR TEMPERATURE" label="ART_TEMP_COLORE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW0ipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="COLOUR TEMPERATURE KELVIN" label="ART_TEMP_COLORE_K" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW0ypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="TYPE OF LED" label="ART_TIPO_LED" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW1CpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="TYPE OF PRODUCT" label="ART_TIPO_PRODOTTO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW1SpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="AC VOLTAGE" label="ART_VAC" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW1ipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="PRODUCT VARIANT" label="ART_VARIANTE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW1ypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="VARIANTE PRODOTTO 2" label="ART_VARIANTE_2" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW2CpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="DC VOLTAGE" label="ART_VDC" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="1" talendType="id_Float" xmi:id="_IJNW2SpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="PRODUCT VERSION" label="ART_VERSIONE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW2ipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d2635441-12ee-44b3-a2b8-adb7a496e411"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Uxu2dbug4KgN+jxtfKlo3AIc8Jn0w+D7ZyJ/GpLlFF41Uz7FpW4sIpZ0ikS7Wj3r5n4F/u41rWwb
-cAXI5IxXMQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9f8dd789-1f16-4a78-b11c-515d4e88cf44"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CCCVe8akIBInUoA04nPgBk6oZcCPZ2AMRW6u8mNSetqGz+8iq27MPNABAsVOsRnLHz7MBsLNB9lD
-VbCuPNDJAA==</DigestValue></Reference></SignedInfo><SignatureValue>Ba8D/57LxG8OOlEGp5GfUb/bXdpE18wrvGd61AwzLoDTa4TnDZZla1psChNFEMk19DbZZqFJXI/z
-qf/mcea2QITSwcBuv0MFgis+EGa3giWWhTEgS4gjj5SysAQkDwkUEPrW3oyVkJFUFMvhIdl35UbR
-BezKn++9lwcuVQBToYl0Uhlk5+5itarp1rXVG6862BTZXPV5ueGyhZdsVrM3jat28OXBuw7wlOb+
-F4TiZScTLouDxVvNnOWP56YLy4es05NxDwcP6dtCG/6VBM/iEnpnpp0y0J7tCoR8AMHZ8+T6EMP7
-JARAKhRA8o7xKl5iXAsYAufuiweIJSIzHRPisA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7e55f3b8-d283-40a6-bf09-8dee10349f1f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OIq0KfTJUHDaQ5zUAigR8nab5hDuOrFDbe12ovV39HX2MR4C5gOQVJLCRHXetgXH2y6HnCenCXXk
+GlPd2tJ6Vg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_5253211d-a827-4c7f-baa5-651af546925d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>55TBtmFUdL9/hBfgw5wtSZZufImRjaJ4vJpoIroQWtzzesDBGph+sCAJgwSE2i36lwsVahPeYbpq
+XraGGw5sRg==</DigestValue></Reference></SignedInfo><SignatureValue>nSWtE4c5r5wMP0rxF+dcs4puGi4IYwtLKT7l1MVrJ6BvQgMV41TuHhJtDq9z6B9wlACKI8Q2qzUB
+12pdLb0Au29/YA0YA9ewpCzob0VDKQGFkmo0nT3bRbQTyGX3ymCrtFb8WPakl1DvFIsXxnBSSkLm
+GyDTK1dKfafdxPSKl01v1OMf53mcUZwl5yqb3kYS3ERLz5krttgKRwExXdeJFq/NuEQ4hv1dPmAt
+4R/ge0l9xxZjeKUGnDWDSi3wQJkdJfajleOAy0sDqhVXecX3HSZF/OrLrsJ2nxK1MIadGr1bDzk5
+vdErEhddUYphdhP0zM49Kn9VL5WnIYUnfmmYVw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -185,4 +199,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9f8dd789-1f16-4a78-b11c-515d4e88cf44" Target="#_d2635441-12ee-44b3-a2b8-adb7a496e411"><Timestamp>2020-11-19 14:11:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_5253211d-a827-4c7f-baa5-651af546925d" Target="#_7e55f3b8-d283-40a6-bf09-8dee10349f1f"><Timestamp>2020-11-20 10:36:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
