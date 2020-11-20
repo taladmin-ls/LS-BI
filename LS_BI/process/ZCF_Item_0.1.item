@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:OTmaYGBGlw+XxWbDpCOTBk0LuZy03az9pei1vcH8"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:CBB0zLplKBxU0Be20H/KRJIRozto5xVjWkMINAMm"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:plwyGpMrC2zczfJf0mtta3gHGQy4X5gSOAbh0mUE"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:pC4KunbrECnaYpmrJ6jAXlHUsiVtGWcq6oqS+mqh"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -668,7 +668,7 @@
         <mapperTableEntries expression="row2.ART_CONTROLLER" name="ART_CONTROLLER" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_CRI" name="ART_CRI" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_CUSTOM" name="ART_CUSTOM" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.ART_DIAMETRO_FORO" name="ART_DIAMETRO_FORO" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_DIAMETRO_FORO.equalsIgnoreCase(&quot;&quot;) ? Float.valueOf(&quot;0.00&quot;) : Float.valueOf(row2.ART_DIAMETRO_FORO) " name="ART_DIAMETRO_FORO" nullable="true" type="id_Float"/>
         <mapperTableEntries expression="row2.ART_DIR_LUCE" name="ART_DIR_LUCE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_EAN_CLIENTE" name="ART_EAN_CLIENTE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_ET_CERT_ETL" name="ART_ET_CERT_ETL" nullable="true" type="id_String"/>
@@ -693,22 +693,22 @@
         <mapperTableEntries expression="row2.ART_FINITURA" name="ART_FINITURA" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_FINITURA_SCHERMO" name="ART_FINITURA_SCHERMO" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_FISSAGGIO" name="ART_FISSAGGIO" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.ART_IDC" name="ART_IDC" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_IDC.equalsIgnoreCase(&quot;&quot;) ? Float.valueOf(&quot;0.00&quot;) : Float.valueOf(row2.ART_IDC) " name="ART_IDC" nullable="true" type="id_Float"/>
         <mapperTableEntries expression="row2.ART_ID_CLIENTE" name="ART_ID_CLIENTE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_IP" name="ART_IP" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_ISTRUZIONE_MONTAGGIO" name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_KIT" name="ART_KIT" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_LARGHEZZA.equalsIgnoreCase(&quot;&quot;) ? Float.valueOf(&quot;0.00&quot;) : Float.valueOf(row2.ART_LARGHEZZA) " name="ART_LARGHEZZA" nullable="true" type="id_Float"/>
-        <mapperTableEntries expression="row2.ART_LUMEN" name="ART_LUMEN" nullable="true" type="id_Float"/>
-        <mapperTableEntries expression="row2.ART_LUNGHEZZA" name="ART_LUNGHEZZA" nullable="true" type="id_Float"/>
-        <mapperTableEntries expression="row2.ART_PESO_RAEE" name="ART_PESO_RAEE" nullable="true" type="id_Float"/>
-        <mapperTableEntries expression="row2.ART_POTENZA" name="ART_POTENZA" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_LUMEN.equalsIgnoreCase(&quot;&quot;) ? Float.valueOf(&quot;0.00&quot;) : Float.valueOf(row2.ART_LUMEN) " name="ART_LUMEN" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_LUNGHEZZA.equalsIgnoreCase(&quot;&quot;) ? Float.valueOf(&quot;0.00&quot;) : Float.valueOf(row2.ART_LUNGHEZZA) " name="ART_LUNGHEZZA" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_PESO_RAEE.equalsIgnoreCase(&quot;&quot;) ? Float.valueOf(&quot;0.00&quot;) : Float.valueOf(row2.ART_PESO_RAEE) " name="ART_PESO_RAEE" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_POTENZA.equalsIgnoreCase(&quot;&quot;) ? Float.valueOf(&quot;0.00&quot;) : Float.valueOf(row2.ART_POTENZA) " name="ART_POTENZA" nullable="true" type="id_Float"/>
         <mapperTableEntries expression="row2.ART_PRODOTTO" name="ART_PRODOTTO" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_PROTOCOLLO" name="ART_PROTOCOLLO" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.ART_QTA_IMB_MULTIPLO" name="ART_QTA_IMB_MULTIPLO" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_QTA_IMB_MULTIPLO.equalsIgnoreCase(&quot;&quot;) ? Float.valueOf(&quot;0.00&quot;) : Float.valueOf(row2.ART_QTA_IMB_MULTIPLO) " name="ART_QTA_IMB_MULTIPLO" nullable="true" type="id_Float"/>
         <mapperTableEntries expression="row2.ART_RAEE_NUM_PILE" name="ART_RAEE_NUM_PILE" nullable="true" type="id_Integer"/>
         <mapperTableEntries expression="row2.ART_RAEE_NUM_SORG" name="ART_RAEE_NUM_SORG" nullable="true" type="id_Integer"/>
-        <mapperTableEntries expression="row2.ART_RAEE_PESO_PILA" name="ART_RAEE_PESO_PILA" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_RAEE_PESO_PILA.equalsIgnoreCase(&quot;&quot;) ? Float.valueOf(&quot;0.00&quot;) : Float.valueOf(row2.ART_RAEE_PESO_PILA) " name="ART_RAEE_PESO_PILA" nullable="true" type="id_Float"/>
         <mapperTableEntries expression="row2.ART_RAEE_TIPO" name="ART_RAEE_TIPO" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_RAEE_TIPO_PILA" name="ART_RAEE_TIPO_PILA" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_SORGENTE" name="ART_SORGENTE" nullable="true" type="id_String"/>
@@ -719,7 +719,7 @@
         <mapperTableEntries expression="row2.ART_VAC" name="ART_VAC" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_VARIANTE" name="ART_VARIANTE" nullable="true" type="id_String"/>
         <mapperTableEntries expression="row2.ART_VARIANTE_2" name="ART_VARIANTE_2" nullable="true" type="id_String"/>
-        <mapperTableEntries expression="row2.ART_VDC" name="ART_VDC" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_VDC.equalsIgnoreCase(&quot;&quot;) ? Float.valueOf(&quot;0.00&quot;) : Float.valueOf(row2.ART_VDC) " name="ART_VDC" nullable="true" type="id_Float"/>
         <mapperTableEntries expression="row2.ART_VERSIONE" name="ART_VERSIONE" nullable="true" type="id_String"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
@@ -1291,7 +1291,7 @@
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROTECT_FILE" value="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:MHlEC7yPlqDPzSQPQahPifbL0WidjH5QS5tVIERr"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:5q7WZfTjaI379W+r6YfA94MgV875paxyJWLOI6lK"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="100"/>
@@ -1430,13 +1430,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b5306e24-082e-42fc-a2a6-56cf6de468e9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>q53jW3pG5wRAvqC4qtzpjdzYyTYWKeph7aKFr6LtkOzT1fh9ZZrdndaHp/OrGt+/xxFz26GEipbU
-FAz3COIiWw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f22ad430-12e2-47e0-b1e9-661a0cd50f81"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>d0xCc30ykJyX8q+lPIdW9dwfuGDld4oejaLgUqE5qIHerMOy2xf2c31aDSroin9rPBfURJES0wXl
-Iq78mgcOIw==</DigestValue></Reference></SignedInfo><SignatureValue>IA8S4MuS2Rno7jDybRg0Wr7C7BxYpeR7MYEHhh7N9F2wrxVBh5a//wvCvmNBjdPZTcxeokwewYrH
-fcRmQfVeaU0lDq8WtYr69PXABBqb7oz+k8xrFs7RxT5GIjuQhZtClbHFhSJsWyKwXA5bSIgw8U43
-XLP/BUeLu3og11/49qmWwINeurIXsiRFmX3gn49dzlTqWSHWFXtMmAf9pX5DXjXHmROPevxRkh81
-ytX5v7zVq/U++ooTtB40hgQlOeLywBRVgKuOgMbnN3Z7Tc9h6eDhV3jETrXHpS9oBkLw28VBBA7C
-paB6zDm/gnOuPTopiuxYWg9U4HZJuh/7S7oBLQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5ff09e78-f686-42bf-8cd9-40b7c472be85"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CjAHE9FZB97xWwRFlhSGkBRFaKpn1cJLzFZQ/GuvVE/xaNbvO3+7j/EOxNOovJCBC7wCMzLu8tpI
+fW1eKAQzSQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ee2a4c54-b9fd-4324-bdf3-7fda8bd01f22"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eW2l6k3+A/ZRnIXkDkau2Grr7b5ytchqCWdocspe6K95MyDnxGWYaMJ5HeFYHTwZIkdd/nCf+XHP
+GtkPZlK6Xw==</DigestValue></Reference></SignedInfo><SignatureValue>M/A9OIxOz7Klp1hzIAGPdELPRco58xLbWn1J8J+mhE63FpEAgClDdGfhl2DYSjRLgobS9cYyN0z6
+uXEKBoHJip2TOv+yjMYOt9fhuP9AwbWCEowMsNDlqN0RBuYeOFqTox5u5OWdMxFodJpv7712PeN4
+dgdmhyl/34Gch+2CDlxmBtIuhQ7gcUsbllKM/bpIXi2gwnogj2PR2NeKF/yLJVq7RTh26mHzwB34
+irVlcri5nN1eqi+7AZPG3hUaVB2kp8LX78dppTDlc5VREK9mbI2d2jweNc9FJwEUtR4cwFE+LFgh
+MSqNIZGQlXI8n7b6515lq3Iz3urscXGbHyvzvA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -1458,4 +1458,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f22ad430-12e2-47e0-b1e9-661a0cd50f81" Target="#_b5306e24-082e-42fc-a2a6-56cf6de468e9"><Timestamp>2020-11-20 11:39:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ee2a4c54-b9fd-4324-bdf3-7fda8bd01f22" Target="#_5ff09e78-f686-42bf-8cd9-40b7c472be85"><Timestamp>2020-11-20 11:43:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
