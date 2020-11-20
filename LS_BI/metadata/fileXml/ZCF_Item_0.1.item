@@ -104,7 +104,7 @@
       <feature comment="EMBEDDED CONTROLLER" label="ART_CONTROLLER" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWoypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="CHROMATIC RENDERING INDEX" label="ART_CRI" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWpCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="STANDARD/CUSTOM" label="ART_CUSTOM" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWpSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature comment="HOLE DIAMETER" label="ART_DIAMETRO_FORO" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="1" talendType="id_Float" xmi:id="_IJNWpipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="HOLE DIAMETER" label="ART_DIAMETRO_FORO" length="11" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_String" xmi:id="_IJNWpipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="LIGHT DIRECTION" label="ART_DIR_LUCE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWpypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="EAN CLIENTE" label="ART_EAN_CLIENTE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWqCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="STAMPA ETIC. CERT. ETL" label="ART_ET_CERT_ETL" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWqSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
@@ -131,7 +131,7 @@
       <feature comment="PRODUCT FINISH" label="ART_FINITURA" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWvCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="SCREEN FINISH" label="ART_FINITURA_SCHERMO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWvSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="PRODUCT FIXING" label="ART_FISSAGGIO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWvipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature comment="CONTINUOUS CURRENT" label="ART_IDC" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="1" talendType="id_Float" xmi:id="_IJNWvypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="CONTINUOUS CURRENT" label="ART_IDC" length="11" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_String" xmi:id="_IJNWvypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="CLIENTE ORGANIZZAZIONE CANALE" label="ART_ID_CLIENTE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="IP PROTECTION DEGREE" label="ART_IP" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
         <initialValue body="" xmi:id="_0uLHsCsUEeumKc-tFrn5Zg"/>
@@ -139,7 +139,7 @@
       <feature comment="ISTRUZIONE MONTAGGIO" label="ART_ISTRUZIONE_MONTAGGIO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="KIT" label="ART_KIT" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWwypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="PRODUCT WIDTH" label="ART_LARGHEZZA" length="11" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_String" xmi:id="_IJNWxCpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature comment="LUMINOUS FLUX" label="ART_LUMEN" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="1" talendType="id_Float" xmi:id="_IJNWxSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
+      <feature comment="LUMINOUS FLUX" label="ART_LUMEN" length="11" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_String" xmi:id="_IJNWxSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
         <initialValue body="" xmi:id="_4uQDMCsaEeumKc-tFrn5Zg"/>
       </feature>
       <feature comment="PRODUCT LENGTH" label="ART_LUNGHEZZA" length="11" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_String" xmi:id="_IJNWxipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn">
@@ -156,7 +156,7 @@
         <initialValue body="" xmi:id="_8wSh0CsFEeumKc-tFrn5Zg"/>
       </feature>
       <feature comment="NUMERO SORGENTI LUMINOSE" label="ART_RAEE_NUM_SORG" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_IJNWzSpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
-      <feature comment="PESO RAEE PILA IN KG" label="ART_RAEE_PESO_PILA" length="10" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_Float" xmi:id="_IJNWzipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature comment="PESO RAEE PILA IN KG" label="ART_RAEE_PESO_PILA" length="11" pattern="&quot;dd-MM-yyyy&quot;" precision="3" talendType="id_String" xmi:id="_IJNWzipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="TYPE OF PRODUCT RAEE" label="ART_RAEE_TIPO" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNWzypxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="TIPOLOGIA PILA" label="ART_RAEE_TIPO_PILA" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW0CpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
       <feature comment="TYPE OF LIGHT SOURCE" label="ART_SORGENTE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW0SpxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
@@ -171,13 +171,13 @@
       <feature comment="PRODUCT VERSION" label="ART_VERSIONE" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_IJNW2ipxEeumKc-tFrn5Zg" xsi:type="TalendMetadata:MetadataColumn"/>
     </ownedElement>
   </orgomg.cwm.resource.record:RecordFile>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bd8c87e7-a7a1-405f-882e-9f98779276ea"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XWypqyxVWEid/WkbVHbyGnJZV5AgVTSlcAa/W26HD8GPeUwif4K9b1ZvGpbEFAq9XAwUB3H0xjXB
-vApMozNNVg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e051e82b-685b-4389-b6b8-cfc908ab31b8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>U4rMJV3//7b3m/nCQIMcZVymP6nYRIhTYUQZXfMOA2FfQN2VyIRXNdC1gwSwjV6dUBdjSbJc+sjB
-wVEGibVh7w==</DigestValue></Reference></SignedInfo><SignatureValue>QDcqkWc1WjpC5n/wQp92XLyXVRa7UCwl/9FyUAFPkMDVqCs+/uOg7rl+bSMem81hpEKkNaa/TKCf
-KDUWxwNIYccdR8bKUh8SxlE0ZHtAkPlRvrKJWRPgK94bXD73+FkJ4/z8G78dZl+x3QjMNCFQcT0X
-ulfHnJyUAPHLziDmrvTKlg4O/kwU6p4NUyzP0hN4R02R82WriLXtuerMNe+EX67yltsw3ORg/ISe
-jhV3U3lfVyPzZPMjeABcBCX2tzcOG3ah+5uDE6irYPmTvp8qg7xDBO9FODGs1/PZP9uTg8V4wi0p
-nvWiA34pU2v/vBktawsts0/8aVXcMzBteXj32Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4c28e4d4-6c3d-42ac-8e27-d4c12e965b99"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kWxXgHICF3HG55PQ8cEd6qx/65bA4OyqgGzyxF6KhePvQ8NWZjxAMhKiKGDYdkEnABtMctUanklc
+QX7h9+PSUw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_08cf15b0-a160-4cdb-85b6-76fd6864a8f0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>kQwe78Z6sg4cNtneyyk7vMPBWVhyAMOYBSCeq8WHeeJ1XxffGexlEBziRUsJ2KadoytayjCBMdH3
+gaWju2/GKw==</DigestValue></Reference></SignedInfo><SignatureValue>fCfg6Fogq9uy1vDuqTyJJ45NvlsqYSLrz5DR4pOsuFoZV1v0R1V0meTpbszWamGKHTVmcayW52TF
+KCrgeTm5Na6mZNUUMxsns1HD3WgDnckocdxtGZGzPDbvKSaKtVNE7dePN+3TWDjDKEyQeerGVbEI
+Q7isbxSqjHKhhebiKzDTW+HVaHQjnYbwbGxuppwVBGqGOgf+HxYe1ra2ftHlrCUorp8qhT49soIn
+8OgVcpBGOSZm7IpFykyGEcMUgk+Or59ew1QKu9VxIleFU9CPzZa5hkMur4K2LSYDW1ZJPfZFlgLF
+XVtGiKviL0Otj8iXyIZVvcuwlxIlh/nRLpSLEA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -199,4 +199,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e051e82b-685b-4389-b6b8-cfc908ab31b8" Target="#_bd8c87e7-a7a1-405f-882e-9f98779276ea"><Timestamp>2020-11-20 11:06:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_08cf15b0-a160-4cdb-85b6-76fd6864a8f0" Target="#_4c28e4d4-6c3d-42ac-8e27-d4c12e965b99"><Timestamp>2020-11-20 11:26:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
