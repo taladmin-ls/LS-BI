@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:w2s8CbOt0fa7YE58O/MgWX0OyFL18PwBh9GHOgNk"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:QgXyt/8j7WrDG/egdUuKRRP5h8aw0gPS7SMWrW0R"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:XOP8x38RS9BwjnxmHk6amiTlVuT2ZE3+pljWNHu9"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:llhwl2olhfFVg6cl+YJxN1U1MLQnmGnL3Jhxnjb9"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -416,7 +416,7 @@
       <column comment="EMBEDDED CONTROLLER" key="false" length="30" name="ART_CONTROLLER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="CHROMATIC RENDERING INDEX" key="false" length="30" name="ART_CRI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STANDARD/CUSTOM" key="false" length="30" name="ART_CUSTOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="HOLE DIAMETER" key="false" length="11" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="LIGHT DIRECTION" key="false" length="30" name="ART_DIR_LUCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="EAN CLIENTE" key="false" length="30" name="ART_EAN_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. ETL" key="false" length="30" name="ART_ET_CERT_ETL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -441,13 +441,13 @@
       <column comment="PRODUCT FINISH" key="false" length="30" name="ART_FINITURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="SCREEN FINISH" key="false" length="30" name="ART_FINITURA_SCHERMO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT FIXING" key="false" length="30" name="ART_FISSAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="CONTINUOUS CURRENT" key="false" length="11" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="CLIENTE ORGANIZZAZIONE CANALE" key="false" length="30" name="ART_ID_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="IP PROTECTION DEGREE" defaultValue="" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="ISTRUZIONE MONTAGGIO" key="false" length="30" name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="KIT" key="false" length="30" name="ART_KIT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT WIDTH" key="false" length="11" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="11" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
@@ -456,7 +456,7 @@
       <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="11" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="NUMERO DI PILE" defaultValue="" key="false" length="10" name="ART_RAEE_NUM_PILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="NUMERO SORGENTI LUMINOSE" key="false" length="10" name="ART_RAEE_NUM_SORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="PESO RAEE PILA IN KG" key="false" length="10" name="ART_RAEE_PESO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PESO RAEE PILA IN KG" key="false" length="11" name="ART_RAEE_PESO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="TYPE OF PRODUCT RAEE" key="false" length="30" name="ART_RAEE_TIPO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="TIPOLOGIA PILA" key="false" length="30" name="ART_RAEE_TIPO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="TYPE OF LIGHT SOURCE" key="false" length="30" name="ART_SORGENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -493,7 +493,7 @@
       <column comment="EMBEDDED CONTROLLER" key="false" length="30" name="ART_CONTROLLER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="CHROMATIC RENDERING INDEX" key="false" length="30" name="ART_CRI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STANDARD/CUSTOM" key="false" length="30" name="ART_CUSTOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="HOLE DIAMETER" key="false" length="11" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="LIGHT DIRECTION" key="false" length="30" name="ART_DIR_LUCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="EAN CLIENTE" key="false" length="30" name="ART_EAN_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. ETL" key="false" length="30" name="ART_ET_CERT_ETL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -518,13 +518,13 @@
       <column comment="PRODUCT FINISH" key="false" length="30" name="ART_FINITURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="SCREEN FINISH" key="false" length="30" name="ART_FINITURA_SCHERMO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT FIXING" key="false" length="30" name="ART_FISSAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="CONTINUOUS CURRENT" key="false" length="11" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="CLIENTE ORGANIZZAZIONE CANALE" key="false" length="30" name="ART_ID_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="IP PROTECTION DEGREE" defaultValue="" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="ISTRUZIONE MONTAGGIO" key="false" length="30" name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="KIT" key="false" length="30" name="ART_KIT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT WIDTH" key="false" length="11" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="11" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
@@ -533,7 +533,7 @@
       <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="11" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="NUMERO DI PILE" defaultValue="" key="false" length="10" name="ART_RAEE_NUM_PILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="NUMERO SORGENTI LUMINOSE" key="false" length="10" name="ART_RAEE_NUM_SORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
-      <column comment="PESO RAEE PILA IN KG" key="false" length="10" name="ART_RAEE_PESO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PESO RAEE PILA IN KG" key="false" length="11" name="ART_RAEE_PESO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
       <column comment="TYPE OF PRODUCT RAEE" key="false" length="30" name="ART_RAEE_TIPO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="TIPOLOGIA PILA" key="false" length="30" name="ART_RAEE_TIPO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="TYPE OF LIGHT SOURCE" key="false" length="30" name="ART_SORGENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -551,17 +551,28 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="128">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplicate_1"/>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_GNzEsCpvEeumKc-tFrn5Zg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tReplicate_1">
+    <metadata connector="FLOW" label="metadata" name="row3">
       <column comment="CODICE ARTICOLO" key="false" length="18" name="MATNR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="DESCRIZIONE ARTICOLO" key="false" length="40" name="MAKTX" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="DATA INSERIMENTO" key="false" length="10" name="ERSDA" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="UTENTE INSERIMENTO" key="false" length="10" name="ERNAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="DATA MODIFICA" key="false" length="10" name="LAEDA" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="UTENTE MODIFICA" key="false" length="10" name="AENAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="FLAG CANCELLAZIONE LOGICA" defaultValue="" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FLAG CANCELLAZIONE LOGICA" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Tipo di materiale" key="false" length="4" name="MTART" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Gruppo merci" key="false" length="9" name="MATKL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Unità di misura di base" key="false" length="3" name="MEINS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -577,11 +588,11 @@
       <column comment="EMBEDDED CONTROLLER" key="false" length="30" name="ART_CONTROLLER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="CHROMATIC RENDERING INDEX" key="false" length="30" name="ART_CRI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STANDARD/CUSTOM" key="false" length="30" name="ART_CUSTOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="LIGHT DIRECTION" key="false" length="30" name="ART_DIR_LUCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="EAN CLIENTE" key="false" length="30" name="ART_EAN_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. ETL" key="false" length="30" name="ART_ET_CERT_ETL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="STAMPA ETIC. CERT. INCASSO" defaultValue="" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. CERT. INCASSO" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. SPORGENTE" key="false" length="30" name="ART_ET_CERT_SPORGENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CLIENTE MULTIPLA" key="false" length="30" name="ART_ET_CLI_MULTIPLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CLIENTE SINGOLA" key="false" length="30" name="ART_ET_CLI_SINGOLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -602,19 +613,19 @@
       <column comment="PRODUCT FINISH" key="false" length="30" name="ART_FINITURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="SCREEN FINISH" key="false" length="30" name="ART_FINITURA_SCHERMO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT FIXING" key="false" length="30" name="ART_FISSAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="CLIENTE ORGANIZZAZIONE CANALE" key="false" length="30" name="ART_ID_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="IP PROTECTION DEGREE" defaultValue="" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="IP PROTECTION DEGREE" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="ISTRUZIONE MONTAGGIO" key="false" length="30" name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="KIT" key="false" length="30" name="ART_KIT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="PRODUCT WIDTH" key="false" length="11" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
-      <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="PRODUCT WIDTH" key="false" length="10" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PRODUCT LENGTH" key="false" length="10" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PESO RAEE IN KG" key="false" length="10" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="11" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="PROJECT CHARTER" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="NUMERO DI PILE" defaultValue="" key="false" length="10" name="ART_RAEE_NUM_PILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="NUMERO SORGENTI LUMINOSE" key="false" length="10" name="ART_RAEE_NUM_SORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="PESO RAEE PILA IN KG" key="false" length="10" name="ART_RAEE_PESO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
@@ -628,7 +639,246 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="row3" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row2.MATNR " name="MATNR" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.MAKTX " name="MAKTX" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ERSDA " name="ERSDA" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row2.ERNAM " name="ERNAM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.LAEDA " name="LAEDA" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row2.AENAM " name="AENAM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.LVORM " name="LVORM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.MTART " name="MTART" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.MATKL " name="MATKL" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.MEINS " name="MEINS" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.BSTME " name="BSTME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.SPART " name="SPART" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.PRDHA " name="PRDHA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.KZKFG " name="KZKFG" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.MSTAE" name="MSTAE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.MSTAV" name="MSTAV" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ALIMENTATORE" name="ART_ALIMENTATORE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ALIMENTAZIONE" name="ART_ALIMENTAZIONE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_APPLICAZIONE" name="ART_APPLICAZIONE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_CONTROLLER" name="ART_CONTROLLER" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_CRI" name="ART_CRI" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_CUSTOM" name="ART_CUSTOM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_DIAMETRO_FORO" name="ART_DIAMETRO_FORO" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_DIR_LUCE" name="ART_DIR_LUCE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_EAN_CLIENTE" name="ART_EAN_CLIENTE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_CERT_ETL" name="ART_ET_CERT_ETL" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_CERT_INCASSO" name="ART_ET_CERT_INCASSO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_CERT_SPORGENTE" name="ART_ET_CERT_SPORGENTE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_CLI_MULTIPLA" name="ART_ET_CLI_MULTIPLA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_CLI_SINGOLA" name="ART_ET_CLI_SINGOLA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_DATI_DI_TARGA" name="ART_ET_DATI_DI_TARGA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_DEL_MULTIPLA" name="ART_ET_DEL_MULTIPLA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_DEL_SINGOLA" name="ART_ET_DEL_SINGOLA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_EAN_CLIENTE" name="ART_ET_EAN_CLIENTE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_EAN_LS" name="ART_ET_EAN_LS" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_IMB_MULTIPLO" name="ART_ET_IMB_MULTIPLO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_IMB_SINGOLO" name="ART_ET_IMB_SINGOLO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_IMG_CLASSE" name="ART_ET_IMG_CLASSE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_IMG_ENEC" name="ART_ET_IMG_ENEC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_IMG_INCASSO" name="ART_ET_IMG_INCASSO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_IMG_LOGO_AZI" name="ART_ET_IMG_LOGO_AZI" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_IMG_MULTIPLA1" name="ART_ET_IMG_MULTIPLA1" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_IMG_MULTIPLA2" name="ART_ET_IMG_MULTIPLA2" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ET_IMG_SINGOLA" name="ART_ET_IMG_SINGOLA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_FINITURA" name="ART_FINITURA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_FINITURA_SCHERMO" name="ART_FINITURA_SCHERMO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_FISSAGGIO" name="ART_FISSAGGIO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_IDC" name="ART_IDC" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_ID_CLIENTE" name="ART_ID_CLIENTE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_IP" name="ART_IP" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_ISTRUZIONE_MONTAGGIO" name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_KIT" name="ART_KIT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_LARGHEZZA" name="ART_LARGHEZZA" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_LUMEN" name="ART_LUMEN" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_LUNGHEZZA" name="ART_LUNGHEZZA" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_PESO_RAEE" name="ART_PESO_RAEE" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_POTENZA" name="ART_POTENZA" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_PRODOTTO" name="ART_PRODOTTO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_PROTOCOLLO" name="ART_PROTOCOLLO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_QTA_IMB_MULTIPLO" name="ART_QTA_IMB_MULTIPLO" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_RAEE_NUM_PILE" name="ART_RAEE_NUM_PILE" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row2.ART_RAEE_NUM_SORG" name="ART_RAEE_NUM_SORG" nullable="true" type="id_Integer"/>
+        <mapperTableEntries expression="row2.ART_RAEE_PESO_PILA" name="ART_RAEE_PESO_PILA" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_RAEE_TIPO" name="ART_RAEE_TIPO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_RAEE_TIPO_PILA" name="ART_RAEE_TIPO_PILA" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_SORGENTE" name="ART_SORGENTE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_TEMP_COLORE" name="ART_TEMP_COLORE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_TEMP_COLORE_K" name="ART_TEMP_COLORE_K" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_TIPO_LED" name="ART_TIPO_LED" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_TIPO_PRODOTTO" name="ART_TIPO_PRODOTTO" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_VAC" name="ART_VAC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_VARIANTE" name="ART_VARIANTE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_VARIANTE_2" name="ART_VARIANTE_2" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row2.ART_VDC" name="ART_VDC" nullable="true" type="id_Float"/>
+        <mapperTableEntries expression="row2.ART_VERSIONE" name="ART_VERSIONE" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="MATNR" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MAKTX" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ERSDA" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="ERNAM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LAEDA" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="AENAM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="LVORM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MTART" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MATKL" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MEINS" nullable="true" type="id_String"/>
+        <mapperTableEntries name="BSTME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SPART" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PRDHA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="KZKFG" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MSTAE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MSTAV" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ALIMENTATORE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ALIMENTAZIONE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_APPLICAZIONE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_CONTROLLER" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_CRI" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_CUSTOM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_DIAMETRO_FORO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_DIR_LUCE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_EAN_CLIENTE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_CERT_ETL" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_CERT_INCASSO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_CERT_SPORGENTE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_CLI_MULTIPLA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_CLI_SINGOLA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_DATI_DI_TARGA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_DEL_MULTIPLA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_DEL_SINGOLA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_EAN_CLIENTE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_EAN_LS" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_IMB_MULTIPLO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_IMB_SINGOLO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_IMG_CLASSE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_IMG_ENEC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_IMG_INCASSO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_IMG_LOGO_AZI" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_IMG_MULTIPLA1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_IMG_MULTIPLA2" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ET_IMG_SINGOLA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_FINITURA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_FINITURA_SCHERMO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_FISSAGGIO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_IDC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ID_CLIENTE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_IP" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_KIT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_LARGHEZZA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_LUMEN" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_LUNGHEZZA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_PESO_RAEE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_POTENZA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_PRODOTTO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_PROTOCOLLO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_QTA_IMB_MULTIPLO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_RAEE_NUM_PILE" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="ART_RAEE_NUM_SORG" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="ART_RAEE_PESO_PILA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_RAEE_TIPO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_RAEE_TIPO_PILA" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_SORGENTE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_TEMP_COLORE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_TEMP_COLORE_K" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_TIPO_LED" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_TIPO_PRODOTTO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_VAC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_VARIANTE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_VARIANTE_2" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_VDC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ART_VERSIONE" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplicate_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="metadata" name="tReplicate_1">
+      <column comment="CODICE ARTICOLO" key="false" length="18" name="MATNR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="DESCRIZIONE ARTICOLO" key="false" length="40" name="MAKTX" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="DATA INSERIMENTO" key="false" length="10" name="ERSDA" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="UTENTE INSERIMENTO" key="false" length="10" name="ERNAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="DATA MODIFICA" key="false" length="10" name="LAEDA" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
+      <column comment="UTENTE MODIFICA" key="false" length="10" name="AENAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FLAG CANCELLAZIONE LOGICA" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="Tipo di materiale" key="false" length="4" name="MTART" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="Gruppo merci" key="false" length="9" name="MATKL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="Unità di misura di base" key="false" length="3" name="MEINS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="UM dell'ordine d'acquisto" key="false" length="3" name="BSTME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="Settore merceologico" key="false" length="2" name="SPART" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="Gerarchia prodotti" key="false" length="18" name="PRDHA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="Materiale configurabile" key="false" length="1" name="KZKFG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="Stato mat. valido per tutte le div." key="false" length="2" name="MSTAE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="Stato materiale valido per tutta la catena di distr." key="false" length="2" name="MSTAV" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="TYPE OF POWER SUPPLY" key="false" length="30" name="ART_ALIMENTATORE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="TYPE OF SUPPLY" key="false" length="30" name="ART_ALIMENTAZIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="TYPE OF APPLICATION" key="false" length="30" name="ART_APPLICAZIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="EMBEDDED CONTROLLER" key="false" length="30" name="ART_CONTROLLER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="CHROMATIC RENDERING INDEX" key="false" length="30" name="ART_CRI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STANDARD/CUSTOM" key="false" length="30" name="ART_CUSTOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="LIGHT DIRECTION" key="false" length="30" name="ART_DIR_LUCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="EAN CLIENTE" key="false" length="30" name="ART_EAN_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. CERT. ETL" key="false" length="30" name="ART_ET_CERT_ETL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. CERT. INCASSO" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. CERT. SPORGENTE" key="false" length="30" name="ART_ET_CERT_SPORGENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. CLIENTE MULTIPLA" key="false" length="30" name="ART_ET_CLI_MULTIPLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. CLIENTE SINGOLA" key="false" length="30" name="ART_ET_CLI_SINGOLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. DATI DI TARGA" key="false" length="30" name="ART_ET_DATI_DI_TARGA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. DELIVERY MULTIPLA" key="false" length="30" name="ART_ET_DEL_MULTIPLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. DELIVERY SINGOLA" key="false" length="30" name="ART_ET_DEL_SINGOLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. EAN CLIENTE" key="false" length="30" name="ART_ET_EAN_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. EAN LS" key="false" length="30" name="ART_ET_EAN_LS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. IMB. MULTIPLO" key="false" length="30" name="ART_ET_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. IMB. SINGOLO" key="false" length="30" name="ART_ET_IMB_SINGOLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FILE LOGO CLASSE ISOLAMENTO" key="false" length="30" name="ART_ET_IMG_CLASSE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FILE IMMAGINE ENEC" key="false" length="30" name="ART_ET_IMG_ENEC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FILE IMMAGINE LOGO INCASSO" key="false" length="30" name="ART_ET_IMG_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FILE IMMAGINE LOGO AZIENDA" key="false" length="30" name="ART_ET_IMG_LOGO_AZI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FILE IMG PRODOTTO MULTIPLA1" key="false" length="30" name="ART_ET_IMG_MULTIPLA1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FILE IMG PRODOTTO MULTIPLA2" key="false" length="30" name="ART_ET_IMG_MULTIPLA2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FILE IMG PRODOTTO SINGOLA" key="false" length="30" name="ART_ET_IMG_SINGOLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="PRODUCT FINISH" key="false" length="30" name="ART_FINITURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="SCREEN FINISH" key="false" length="30" name="ART_FINITURA_SCHERMO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="PRODUCT FIXING" key="false" length="30" name="ART_FISSAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="CLIENTE ORGANIZZAZIONE CANALE" key="false" length="30" name="ART_ID_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="IP PROTECTION DEGREE" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="ISTRUZIONE MONTAGGIO" key="false" length="30" name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="KIT" key="false" length="30" name="ART_KIT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="PRODUCT WIDTH" key="false" length="10" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PRODUCT LENGTH" key="false" length="10" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PESO RAEE IN KG" key="false" length="10" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="PROJECT CHARTER" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="NUMERO DI PILE" defaultValue="" key="false" length="10" name="ART_RAEE_NUM_PILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="NUMERO SORGENTI LUMINOSE" key="false" length="10" name="ART_RAEE_NUM_SORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
+      <column comment="PESO RAEE PILA IN KG" key="false" length="10" name="ART_RAEE_PESO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="TYPE OF PRODUCT RAEE" key="false" length="30" name="ART_RAEE_TIPO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="TIPOLOGIA PILA" key="false" length="30" name="ART_RAEE_TIPO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="TYPE OF LIGHT SOURCE" key="false" length="30" name="ART_SORGENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="COLOUR TEMPERATURE" key="false" length="30" name="ART_TEMP_COLORE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="COLOUR TEMPERATURE KELVIN" key="false" length="30" name="ART_TEMP_COLORE_K" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="TYPE OF LED" key="false" length="30" name="ART_TIPO_LED" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="TYPE OF PRODUCT" key="false" length="30" name="ART_TIPO_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
@@ -646,7 +896,7 @@
       <column comment="UTENTE INSERIMENTO" key="false" length="10" name="ERNAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="DATA MODIFICA" key="false" length="10" name="LAEDA" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="UTENTE MODIFICA" key="false" length="10" name="AENAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="FLAG CANCELLAZIONE LOGICA" defaultValue="" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FLAG CANCELLAZIONE LOGICA" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Tipo di materiale" key="false" length="4" name="MTART" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Gruppo merci" key="false" length="9" name="MATKL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Unità di misura di base" key="false" length="3" name="MEINS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -662,11 +912,11 @@
       <column comment="EMBEDDED CONTROLLER" key="false" length="30" name="ART_CONTROLLER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="CHROMATIC RENDERING INDEX" key="false" length="30" name="ART_CRI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STANDARD/CUSTOM" key="false" length="30" name="ART_CUSTOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="LIGHT DIRECTION" key="false" length="30" name="ART_DIR_LUCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="EAN CLIENTE" key="false" length="30" name="ART_EAN_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. ETL" key="false" length="30" name="ART_ET_CERT_ETL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="STAMPA ETIC. CERT. INCASSO" defaultValue="" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. CERT. INCASSO" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. SPORGENTE" key="false" length="30" name="ART_ET_CERT_SPORGENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CLIENTE MULTIPLA" key="false" length="30" name="ART_ET_CLI_MULTIPLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CLIENTE SINGOLA" key="false" length="30" name="ART_ET_CLI_SINGOLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -687,19 +937,19 @@
       <column comment="PRODUCT FINISH" key="false" length="30" name="ART_FINITURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="SCREEN FINISH" key="false" length="30" name="ART_FINITURA_SCHERMO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT FIXING" key="false" length="30" name="ART_FISSAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="CLIENTE ORGANIZZAZIONE CANALE" key="false" length="30" name="ART_ID_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="IP PROTECTION DEGREE" defaultValue="" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="IP PROTECTION DEGREE" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="ISTRUZIONE MONTAGGIO" key="false" length="30" name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="KIT" key="false" length="30" name="ART_KIT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="PRODUCT WIDTH" key="false" length="11" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
-      <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="PRODUCT WIDTH" key="false" length="10" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PRODUCT LENGTH" key="false" length="10" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PESO RAEE IN KG" key="false" length="10" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="11" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="PROJECT CHARTER" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="NUMERO DI PILE" defaultValue="" key="false" length="10" name="ART_RAEE_NUM_PILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="NUMERO SORGENTI LUMINOSE" key="false" length="10" name="ART_RAEE_NUM_SORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="PESO RAEE PILA IN KG" key="false" length="10" name="ART_RAEE_PESO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
@@ -713,7 +963,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="FILTER" label="metadata" name="FILTER">
@@ -723,7 +973,7 @@
       <column comment="UTENTE INSERIMENTO" key="false" length="10" name="ERNAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="DATA MODIFICA" key="false" length="10" name="LAEDA" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="UTENTE MODIFICA" key="false" length="10" name="AENAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="FLAG CANCELLAZIONE LOGICA" defaultValue="" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FLAG CANCELLAZIONE LOGICA" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Tipo di materiale" key="false" length="4" name="MTART" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Gruppo merci" key="false" length="9" name="MATKL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Unità di misura di base" key="false" length="3" name="MEINS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -739,11 +989,11 @@
       <column comment="EMBEDDED CONTROLLER" key="false" length="30" name="ART_CONTROLLER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="CHROMATIC RENDERING INDEX" key="false" length="30" name="ART_CRI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STANDARD/CUSTOM" key="false" length="30" name="ART_CUSTOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="LIGHT DIRECTION" key="false" length="30" name="ART_DIR_LUCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="EAN CLIENTE" key="false" length="30" name="ART_EAN_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. ETL" key="false" length="30" name="ART_ET_CERT_ETL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="STAMPA ETIC. CERT. INCASSO" defaultValue="" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. CERT. INCASSO" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. SPORGENTE" key="false" length="30" name="ART_ET_CERT_SPORGENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CLIENTE MULTIPLA" key="false" length="30" name="ART_ET_CLI_MULTIPLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CLIENTE SINGOLA" key="false" length="30" name="ART_ET_CLI_SINGOLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -764,19 +1014,19 @@
       <column comment="PRODUCT FINISH" key="false" length="30" name="ART_FINITURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="SCREEN FINISH" key="false" length="30" name="ART_FINITURA_SCHERMO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT FIXING" key="false" length="30" name="ART_FISSAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="CLIENTE ORGANIZZAZIONE CANALE" key="false" length="30" name="ART_ID_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="IP PROTECTION DEGREE" defaultValue="" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="IP PROTECTION DEGREE" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="ISTRUZIONE MONTAGGIO" key="false" length="30" name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="KIT" key="false" length="30" name="ART_KIT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="PRODUCT WIDTH" key="false" length="11" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
-      <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="PRODUCT WIDTH" key="false" length="10" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PRODUCT LENGTH" key="false" length="10" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PESO RAEE IN KG" key="false" length="10" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="11" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="PROJECT CHARTER" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="NUMERO DI PILE" defaultValue="" key="false" length="10" name="ART_RAEE_NUM_PILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="NUMERO SORGENTI LUMINOSE" key="false" length="10" name="ART_RAEE_NUM_SORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="PESO RAEE PILA IN KG" key="false" length="10" name="ART_RAEE_PESO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
@@ -790,7 +1040,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="metadata" name="REJECT">
@@ -800,7 +1050,7 @@
       <column comment="UTENTE INSERIMENTO" key="false" length="10" name="ERNAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="DATA MODIFICA" key="false" length="10" name="LAEDA" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="UTENTE MODIFICA" key="false" length="10" name="AENAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="FLAG CANCELLAZIONE LOGICA" defaultValue="" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FLAG CANCELLAZIONE LOGICA" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Tipo di materiale" key="false" length="4" name="MTART" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Gruppo merci" key="false" length="9" name="MATKL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Unità di misura di base" key="false" length="3" name="MEINS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -816,11 +1066,11 @@
       <column comment="EMBEDDED CONTROLLER" key="false" length="30" name="ART_CONTROLLER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="CHROMATIC RENDERING INDEX" key="false" length="30" name="ART_CRI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STANDARD/CUSTOM" key="false" length="30" name="ART_CUSTOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="LIGHT DIRECTION" key="false" length="30" name="ART_DIR_LUCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="EAN CLIENTE" key="false" length="30" name="ART_EAN_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. ETL" key="false" length="30" name="ART_ET_CERT_ETL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="STAMPA ETIC. CERT. INCASSO" defaultValue="" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. CERT. INCASSO" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. SPORGENTE" key="false" length="30" name="ART_ET_CERT_SPORGENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CLIENTE MULTIPLA" key="false" length="30" name="ART_ET_CLI_MULTIPLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CLIENTE SINGOLA" key="false" length="30" name="ART_ET_CLI_SINGOLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -841,19 +1091,19 @@
       <column comment="PRODUCT FINISH" key="false" length="30" name="ART_FINITURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="SCREEN FINISH" key="false" length="30" name="ART_FINITURA_SCHERMO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT FIXING" key="false" length="30" name="ART_FISSAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="CLIENTE ORGANIZZAZIONE CANALE" key="false" length="30" name="ART_ID_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="IP PROTECTION DEGREE" defaultValue="" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="IP PROTECTION DEGREE" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="ISTRUZIONE MONTAGGIO" key="false" length="30" name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="KIT" key="false" length="30" name="ART_KIT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="PRODUCT WIDTH" key="false" length="11" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
-      <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="PRODUCT WIDTH" key="false" length="10" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PRODUCT LENGTH" key="false" length="10" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PESO RAEE IN KG" key="false" length="10" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="11" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="PROJECT CHARTER" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="NUMERO DI PILE" defaultValue="" key="false" length="10" name="ART_RAEE_NUM_PILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="NUMERO SORGENTI LUMINOSE" key="false" length="10" name="ART_RAEE_NUM_SORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="PESO RAEE PILA IN KG" key="false" length="10" name="ART_RAEE_PESO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
@@ -867,7 +1117,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
@@ -1041,7 +1291,7 @@
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROTECT_FILE" value="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:KJx3ZEK0IE+9duq7FNzP5p3R0kB6b/AwMt1poqVW"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:OKgKzq3V+FnoQjZChuhAbcPztYsfFMJrO+HDPnbM"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="100"/>
@@ -1062,7 +1312,7 @@
       <column comment="UTENTE INSERIMENTO" key="false" length="10" name="ERNAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="DATA MODIFICA" key="false" length="10" name="LAEDA" nullable="true" pattern="&quot;yyyy-MM-dd&quot;" precision="0" type="id_Date" usefulColumn="true"/>
       <column comment="UTENTE MODIFICA" key="false" length="10" name="AENAM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="FLAG CANCELLAZIONE LOGICA" defaultValue="" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="FLAG CANCELLAZIONE LOGICA" key="false" length="1" name="LVORM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Tipo di materiale" key="false" length="4" name="MTART" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Gruppo merci" key="false" length="9" name="MATKL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="Unità di misura di base" key="false" length="3" name="MEINS" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -1078,11 +1328,11 @@
       <column comment="EMBEDDED CONTROLLER" key="false" length="30" name="ART_CONTROLLER" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="CHROMATIC RENDERING INDEX" key="false" length="30" name="ART_CRI" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STANDARD/CUSTOM" key="false" length="30" name="ART_CUSTOM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="HOLE DIAMETER" key="false" length="10" name="ART_DIAMETRO_FORO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="LIGHT DIRECTION" key="false" length="30" name="ART_DIR_LUCE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="EAN CLIENTE" key="false" length="30" name="ART_EAN_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. ETL" key="false" length="30" name="ART_ET_CERT_ETL" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="STAMPA ETIC. CERT. INCASSO" defaultValue="" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="STAMPA ETIC. CERT. INCASSO" key="false" length="30" name="ART_ET_CERT_INCASSO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CERT. SPORGENTE" key="false" length="30" name="ART_ET_CERT_SPORGENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CLIENTE MULTIPLA" key="false" length="30" name="ART_ET_CLI_MULTIPLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="STAMPA ETIC. CLIENTE SINGOLA" key="false" length="30" name="ART_ET_CLI_SINGOLA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -1103,19 +1353,19 @@
       <column comment="PRODUCT FINISH" key="false" length="30" name="ART_FINITURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="SCREEN FINISH" key="false" length="30" name="ART_FINITURA_SCHERMO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT FIXING" key="false" length="30" name="ART_FISSAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
+      <column comment="CONTINUOUS CURRENT" key="false" length="10" name="ART_IDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="CLIENTE ORGANIZZAZIONE CANALE" key="false" length="30" name="ART_ID_CLIENTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="IP PROTECTION DEGREE" defaultValue="" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="IP PROTECTION DEGREE" key="false" length="30" name="ART_IP" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="ISTRUZIONE MONTAGGIO" key="false" length="30" name="ART_ISTRUZIONE_MONTAGGIO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="KIT" key="false" length="30" name="ART_KIT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="PRODUCT WIDTH" key="false" length="11" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="1" type="id_Float" usefulColumn="true"/>
-      <column comment="PRODUCT LENGTH" defaultValue="" key="false" length="11" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="PESO RAEE IN KG" key="false" length="11" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
-      <column comment="POWER" key="false" length="11" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="PRODUCT WIDTH" key="false" length="10" name="ART_LARGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="LUMINOUS FLUX" defaultValue="" key="false" length="10" name="ART_LUMEN" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PRODUCT LENGTH" key="false" length="10" name="ART_LUNGHEZZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="PESO RAEE IN KG" key="false" length="10" name="ART_PESO_RAEE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
+      <column comment="POWER" key="false" length="10" name="ART_POTENZA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT NAME" key="false" length="30" name="ART_PRODOTTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="PROJECT CHARTER" defaultValue="" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="11" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="PROJECT CHARTER" key="false" length="30" name="ART_PROTOCOLLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="QUANTITY' MULTI-PACKAGING" key="false" length="10" name="ART_QTA_IMB_MULTIPLO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="NUMERO DI PILE" defaultValue="" key="false" length="10" name="ART_RAEE_NUM_PILE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="NUMERO SORGENTI LUMINOSE" key="false" length="10" name="ART_RAEE_NUM_SORG" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="PESO RAEE PILA IN KG" key="false" length="10" name="ART_RAEE_PESO_PILA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
@@ -1129,7 +1379,7 @@
       <column comment="AC VOLTAGE" key="false" length="30" name="ART_VAC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="PRODUCT VARIANT" key="false" length="30" name="ART_VARIANTE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="VARIANTE PRODOTTO 2" key="false" length="30" name="ART_VARIANTE_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="DC VOLTAGE" key="false" length="11" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_String" usefulColumn="true"/>
+      <column comment="DC VOLTAGE" key="false" length="10" name="ART_VDC" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" type="id_Float" usefulColumn="true"/>
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
@@ -1154,7 +1404,11 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out"/>
   </connection>
-  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tExtractXMLField_1" offsetLabelX="0" offsetLabelY="0" source="tExtractXMLField_1" target="tReplicate_1">
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tExtractXMLField_1" offsetLabelX="0" offsetLabelY="0" source="tExtractXMLField_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="row3" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tReplicate_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
@@ -1176,13 +1430,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_12caa1d2-d1e6-4bca-920d-735f54d3c14a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xgLpFe/OA/pUg7AGKtg1X9NAd4pfHIN915wNxO52wv+5c6Q/sKGV2csJMcjsUdCQUFI4RoH8Gglp
-5voCSwCKfg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_62699cc2-ce29-436c-82b6-84c95aaef6c6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DLZEYE7EVGj//Jnid9ozn0FxnYXkvdKekF5bYR98j3Hv2+DtqWHJSQ3he+zLc0LBIwWvHO7ko8Fm
-Q0pH32XoyA==</DigestValue></Reference></SignedInfo><SignatureValue>koxagdjX6JhJWXWdJL1LwjG8tfAkpfTzOU7md5ORhbf/aV1BNYNER71JGHUF2vfgL3PD3Gg4rG4/
-q7plZHFgJeSPQVH+6E02w0GHZ40kubAe4ItJEp9Ap8QEaybBuJNi0DDsNpAkfXy0wSLO1ak1mdPu
-b1z28nosRB3ow/POjBsN7G7U238B34qqoDEB1G9ifZmG+Z8jcqpgLx8ZKvW3T/l6dksvww1fybrm
-yfETc/E5LvqK40+aT3/TKcjC6eOHk03zsBfGPFc1lYvV/My9njAlb3FujsL8Qm+u3caCj0Ad7HA6
-QVeIwlrb8j1aw29vN5sVh94eKNkgNiD7hYfwKQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d49db777-920d-4f46-b93c-b4492f2a15e4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rHfruxOx1ydIqWB2UZqzO7rnYu4wt+ZlSTME+GTJrHrVVRqNYe9VFKYwIwkFuAfTwyQP3sB+ixQN
+hm5DsUqoLg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0f21e871-5e41-4b7b-8cdc-43789c5257c0"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9zo9LpzAzf3wPamNpvxfm+I5kaEdyJiPZH4eVKFWfmxoS88baKZm421cU6v5dmkZZhUtNdjM65V3
+OSdf/KTWkA==</DigestValue></Reference></SignedInfo><SignatureValue>ixMnSmWbPzVE+z+H4Zjy3h7kZP6ZAsCRuznLQhqfB+WwLX4AZacLoWWnCbz9erImIaWEitqivtZn
+T8/J0E+WieiA7n1KY+RLwwnAcvjoJlS0m1y6fC/WfJLJKqY+uGcos/NIsQF4jZpNjmNKm7lMRJGi
+Io0ihV4TN2Ov7fajnfNBwqRFPjdVG/JX/S0EqxC3+83PP6nMbrT5RgV21x+vXN57+BWxpVK33fTo
+YXH7oBKLBe2x6FBsqvfdj8sm9LjPaE68qw2BdC1GecHFhAwMg6LGyH3WeJC/NBpwVwOS/HYU1wK+
+ZsaOESNWyOjpZWBUEeGvCMuUoyjwFZHXUPc4ew==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -1204,4 +1458,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_62699cc2-ce29-436c-82b6-84c95aaef6c6" Target="#_12caa1d2-d1e6-4bca-920d-735f54d3c14a"><Timestamp>2020-11-20 11:06:41</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0f21e871-5e41-4b7b-8cdc-43789c5257c0" Target="#_d49db777-920d-4f46-b93c-b4492f2a15e4"><Timestamp>2020-11-20 11:32:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
