@@ -5,10 +5,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_JkWg4Lx-Eeq-m5HeUfjlGw",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DataOperation",
     "version" : "Latest",
     "type" : "routine"
@@ -22,6 +18,10 @@
     "type" : "routine"
   }, {
     "id" : "Relational",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
     "version" : "Latest",
     "type" : "routine"
   }, {
@@ -44,10 +44,6 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  }, {
-    "id" : "_JkWg4Lx-Eeq-m5HeUfjlGw - metadata",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
