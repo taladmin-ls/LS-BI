@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:fkFd9tL+8xPDJG5pJNjFoXTR65gggqYjBgt7Irm2"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:InoChQftXi8hkKmjfFT1JQXAjM9UWCSWDMDmz50f"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:cAy8zdV0oQmetLb90b350cg/IqiNcGrKeS2K1d/A"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:OEOuAxClesR9U8KYSohbfpiMAo2MT4PS792UnrPT"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -109,7 +109,7 @@
   </parameters>
   <node componentName="tREST" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tREST_1"/>
-    <elementParameter field="TEXT" name="URL" value="&quot;http://10.1.1.16:8000/sap/bc/yservices/masterdata/materials?type=one-shot&amp;date_from=20190101&quot;"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;http://10.1.1.16:8000/sap/bc/yservices/masterdata/customers?type=one-shot&amp;date_from=20190101&quot;"/>
     <elementParameter field="CLOSED_LIST" name="METHOD" value="GET"/>
     <elementParameter field="TABLE" name="HEADERS">
       <elementValue elementRef="NAME" value="&quot;Content-Type&quot;"/>
@@ -118,15 +118,28 @@
       <elementValue elementRef="VALUE" value="&quot;application/xml&quot;"/>
     </elementParameter>
     <elementParameter field="MEMO" name="BODY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="LABEL" value="ZCF_Item"/>
+    <elementParameter field="TEXT" name="LABEL" value="ZCF_Customer"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tREST_1">
       <column key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="0" name="ERROR_CODE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_1"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/manuele.puppo/workspace/ZCF_Customer.xml&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputRaw_1">
+      <column key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="ERROR_CODE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
   <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
     <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
@@ -136,19 +149,15 @@
       <column key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendXMLMap:XmlMapData">
-      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row1">
-        <nodes name="Body" outgoingConnections="//@node.1/@nodeData/@connections.0" type="id_String" xpath="row1/Body"/>
-        <nodes name="ERROR_CODE" type="id_Integer" xpath="row1/ERROR_CODE"/>
-      </inputTrees>
       <outputTrees name="out">
-        <nodes expression=" row1.Body" incomingConnections="//@node.1/@nodeData/@connections.0" name="Body" type="id_String" xpath="out/Body"/>
+        <nodes expression=" row1.Body" name="Body" type="id_String" xpath="out/Body"/>
       </outputTrees>
       <varTables minimized="true" name="Var"/>
-      <connections source="//@node.1/@nodeData/@inputTrees.0/@nodes.0" target="//@node.1/@nodeData/@outputTrees.0/@nodes.0" xsi:type="TalendXMLMap:Connection"/>
     </nodeData>
   </node>
   <node componentName="tExtractXMLField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tExtractXMLField_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_6WsB4CpwEeumKc-tFrn5Zg"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
@@ -391,7 +400,7 @@
     <elementParameter field="TEXT" name="XML_PREFIX" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
     <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="XML ZCF_Item"/>
+    <elementParameter field="TEXT" name="LABEL" value="XML ZCF_Customer"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tExtractXMLField_1">
       <column comment="CODICE ARTICOLO" key="false" length="18" name="MATNR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -553,10 +562,11 @@
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="544" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_GNzEsCpvEeumKc-tFrn5Zg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_Z3v5oC-7Eeuyl4sDZdQ0fw-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -643,7 +653,7 @@
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="row3" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row2.MATNR " name="MATNR" nullable="true" type="id_String"/>
@@ -803,6 +813,7 @@
   </node>
   <node componentName="tReplicate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tReplicate_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tReplicate_1">
       <column comment="CODICE ARTICOLO" key="false" length="18" name="MATNR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -884,6 +895,7 @@
   </node>
   <node componentName="tFilterRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFilterRow_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="LOGICAL_OP" value="&amp;&amp;"/>
     <elementParameter field="TABLE" name="CONDITIONS"/>
     <elementParameter field="CHECK" name="USE_ADVANCED" value="false"/>
@@ -1124,6 +1136,7 @@
   </node>
   <node componentName="tFileOutputExcel" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputExcel_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
@@ -1291,7 +1304,7 @@
       <elementValue elementRef="IS_AUTO_SIZE" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROTECT_FILE" value="false"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:K/LcSQbkMR5iybGoUQYc6wsPbFrVPo/+55Bwuowm"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:V2a/uvVptExZ/OoqEPFDcxC/vk5ifF2vwzoxYckO"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
     <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="100"/>
@@ -1303,7 +1316,7 @@
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
     <elementParameter field="CHECK" name="RECALCULATE_FORMULA" show="false" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
-    <elementParameter field="TEXT" name="LABEL" value="ZCF_Item"/>
+    <elementParameter field="TEXT" name="LABEL" value="ZCF_Customer"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="metadata" name="tFileOutputExcel_1">
       <column comment="CODICE ARTICOLO" key="false" length="18" name="MATNR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -1383,41 +1396,33 @@
       <column comment="PRODUCT VERSION" key="false" length="30" name="ART_VERSIONE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputRaw" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="288">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/manuele.puppo/workspace/ZCF_Item.xml&quot;"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tFileOutputRaw_1">
-      <column key="false" length="0" name="Body" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="0" name="ERROR_CODE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tREST_1" offsetLabelX="0" offsetLabelY="0" source="tREST_1" target="tXMLMap_1">
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tREST_1" offsetLabelX="0" offsetLabelY="0" source="tREST_1" target="tFileOutputRaw_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
   <connection connectorName="FLOW" label="out" lineStyle="0" metaname="out" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tExtractXMLField_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tExtractXMLField_1" offsetLabelX="0" offsetLabelY="0" source="tExtractXMLField_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="row3" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tReplicate_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tReplicate_1" offsetLabelX="0" offsetLabelY="0" source="tReplicate_1" target="tFilterRow_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
   </connection>
   <connection connectorName="FILTER" label="row5" lineStyle="0" metaname="tFilterRow_1" offsetLabelX="0" offsetLabelY="0" source="tFilterRow_1" target="tFileOutputExcel_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
   </connection>
   <subjob>
@@ -1426,17 +1431,17 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputRaw_1"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4fd03789-5849-4178-b3eb-4d9474a0c12b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>MtP9Adz/CTxSDbg4eLX26NJbh7pksDDdQlUwQfNZt2q4i6VQY7xsyY2j8dOYot0U1phsDooVjiqQ
-+cLTIrgQfQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_901c3739-3e49-4386-bb91-d415d8612d6b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HPo/JHdsVd2QSd2s0+UDPhNOCpZiZTFTh8a1hwGYEbbh3wX7/Czj/C61/ekRzq5QcRi0mo6yWJOy
-bVZJ4YGAWw==</DigestValue></Reference></SignedInfo><SignatureValue>ns5Ua8cgA+BlEwJB7bLPg5plIZ52mNApIo0QG32/aF40XZMqeraPNunR2V/aaMYwqXz1+rH52mYE
-tBuo9VFnS1S9I1q4iN+eejKhL7qhq+FXwtvJsEaKeaxTNnCL6Q/5P7BBTFVq1X1DXOZIM/6yVCxP
-FJbL1bbpwkEzGlVr/pxUKdmiThnCwYaFE9GXexagAeBCm/YYzl5/7kyn1XvBAnhma0Ph5RvabFl/
-AcEM3+IK+6OjanT+Y4rn1CgHlme7h1e88rvzGkeKfZvy9CDGF0oNuKdlw6nuIdWjbvQyl4S3c+QQ
-a0K6lBVWiXPaBMYqmD0A1mGyyagkp9rVJcw1ZQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6d08a55c-f912-4da5-8751-f423cbb213af"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>05lvJivF5JX32GV/D9EObksQtj/rAcE/arcp23w/fB9PFRCil1rFl/QeYVOHR/Fjhct1jZiU/OIM
+sdHPBcV5iQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6befcf90-c2e0-4158-b881-feae7e4b2ea9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>t0QNY3Q5blajnx03kN5022laEo3YOPy0Pvj+6S7vcmwUmlST74RTEAmol8cGSHope3xg8b+OHRBy
+Gp7Wuiav9A==</DigestValue></Reference></SignedInfo><SignatureValue>PD79LFIjGxnhbJoz2aJ5jrMyPv6SfNbmenM/3FqTwCePO+91eEfGeX5A2lu29Ln6ir+gm2Ry+6kC
+AMm3PvofsPODC+u5j3b84EaWuUzEJQk7o+xfX07/OXyJkEdZp3G3juTpUhNAVFH44O3N0WcMWNGw
+2tCbYwtDKNmkv/Zqh7GUa3PBWE6DDXeoPkFiniWFr5B6cjtQiibS7ZjBRL5eT5Q9AlrsTPqmkmuD
+WGvsJZ8tQ+YIl6niXO8ndahqvIau1rBPdxdomqFmowvAVrIRwPy/wEXmQ0ypN6IcJzPCmosgckI/
+SDkVGgWvILVYlDPE2EVKoMkIGORZVFpSfGdfBw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -1458,4 +1463,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_901c3739-3e49-4386-bb91-d415d8612d6b" Target="#_4fd03789-5849-4178-b3eb-4d9474a0c12b"><Timestamp>2020-11-26 07:45:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6befcf90-c2e0-4158-b881-feae7e4b2ea9" Target="#_6d08a55c-f912-4da5-8751-f423cbb213af"><Timestamp>2020-11-26 07:48:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
