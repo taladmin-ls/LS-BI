@@ -17,6 +17,7 @@
     <module>jobs/process/zcf805_invoices_0.1</module>
     <module>jobs/process/zcf_item_0.1</module>
     <module>jobs/process/db_dwh_0.1</module>
+    <module>jobs/process/zcf_customer_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
